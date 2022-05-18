@@ -1,7 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
 
 body {
   background-image: url(./src/hero-bg.png);
