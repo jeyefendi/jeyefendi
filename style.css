@@ -42,6 +42,7 @@ footer {
   font-family: "GrandTheftAuto";
   font-size: xx-large;
   text-transform: uppercase;
+  text-decoration: none;
   list-style-type: none;
   color: #fed985;
 }
