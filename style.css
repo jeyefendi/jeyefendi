@@ -1,6 +1,5 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 
-
 body {
   background-image: url(./src/hero-bg.png);
   background-repeat: no-repeat;
@@ -30,23 +29,8 @@ footer {
   font-size: x-large;
   font-style: normal;
   color: #fed985;
-  text-shadow: #000000;  
+  text-shadow: 5px 5px #000;
 }
-
-
-#nav-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  font-family: "GrandTheftAuto";
-  font-size: xx-large;
-  text-transform: uppercase;
-  text-decoration: none;
-  list-style-type: none;
-  color: #fed985;
-}
-
 
 .home {
   padding: 1em;
@@ -62,6 +46,29 @@ footer {
 
 .logo {
   padding: 1em;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  font-family: "GrandTheftAuto";
+  font-size: xx-large;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fed985;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #feda85;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  color: #feebbd;
 }
 
 @font-face {
