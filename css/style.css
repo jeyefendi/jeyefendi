@@ -1,0 +1,87 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body {
+  background-image: url(../src/hero-bg.png);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+nav {
+  display: block;
+  padding: 1em;
+  margin: auto auto;
+}
+
+footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  padding: 1em;
+  font-family: "GrandTheftAuto";
+  font-size: x-large;
+  font-style: normal;
+  color: #fed985;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.home {
+  padding: 1em;
+  display: grid;
+}
+
+.location {
+  font-family: "Odibee Sans";
+  font-size: x-large;
+  font-style: normal;
+  color: #fed985;
+}
+
+.logo {
+  padding: 1em;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  font-family: "GrandTheftAuto";
+  font-size: xx-large;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fed985;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #feda85;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  color: #feebbd;
+}
+
+@font-face {
+  font-family: "GrandTheftAuto";
+  src: url("../fonts/GrandTheftAuto/GrandTheftAuto.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Odibee Sans";
+  src: url("../fonts/Odibee Sans/OdibeeSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
