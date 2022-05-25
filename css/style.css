@@ -68,9 +68,25 @@ footer {
 }
 
 .nav-links:hover {
-  text-decoration: underline;
   color: #feebbd;
 }
+
+.active:hover {
+  transform:scale(1.2);
+  transition: 0.3s;
+}
+
+.contact_menu {
+  display: none;
+}
+
+.active:hover .contact_menu {
+  display: block;
+  position: absolute;
+  margin-top: 1.15em;
+  background: rgba(0, 0, 0, 0.6);
+}
+
 
 @font-face {
   font-family: "GrandTheftAuto";
