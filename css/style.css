@@ -12,12 +12,12 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.55);
 }
 
 nav {
   display: block;
-  padding: 1em;
+  padding: 0;
   margin: auto auto;
 }
 
@@ -34,7 +34,7 @@ footer {
 }
 
 .home {
-  padding: 1em;
+  padding: 0.5rem;
   display: grid;
 }
 
@@ -46,7 +46,7 @@ footer {
 }
 
 .logo {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .nav-items {
@@ -56,15 +56,17 @@ footer {
   gap: 1em;
   font-family: "GrandTheftAuto";
   font-size: xx-large;
-  text-transform: uppercase;
-  text-decoration: none;
   list-style-type: none;
   color: #fed985;
 }
 
 .nav-links {
+  background: none;
+  border: none;
+  text-transform: uppercase;
   text-decoration: none;
   color: #feda85;
+  cursor: pointer;
 }
 
 .nav-links:hover {
@@ -76,15 +78,26 @@ footer {
   transition: 0.3s;
 }
 
+
 .contact_menu {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  border-radius: 0em 0em 0.25em 0.25em;
+}
+
+.contact_menu ul {
+  display: flex;
+  padding: 0.25em 0.25em 0 0.25em;
+  list-style: none;
+  justify-content: space-between;
+  gap: 0.5em;
 }
 
 .active:hover .contact_menu {
-  display: block;
+  opacity: 1;
   position: absolute;
-  margin-top: 1.15em;
-  background: rgba(0, 0, 0, 0.6);
+  top: calc(100% + 0.74em);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 
