@@ -21,6 +21,30 @@ nav {
   margin: auto auto;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  font-style: normal;
+  text-align: center;
+  color: #fed985;
+}
+
+h1 {
+  font-family: "ChaletComprimeComprime";
+  font-size: 5em;
+}
+
+.hero p {
+  font-family: "ChaletComprimeComprime";
+  font-size: xx-large;
+}
+
 footer {
   display: inline-block;
   position: fixed;
@@ -39,7 +63,7 @@ footer {
 }
 
 .location {
-  font-family: "Odibee Sans";
+  font-family: "ChaletComprime";
   font-size: x-large;
   font-style: normal;
   color: #fed985;
@@ -109,8 +133,8 @@ footer {
 }
 
 @font-face {
-  font-family: "Odibee Sans";
-  src: url("../fonts/Odibee Sans/OdibeeSans-Regular.ttf") format("truetype");
+  font-family: "ChaletComprime";
+  src: url("../fonts/ChaletComprime/ChaletComprime.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
