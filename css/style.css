@@ -29,7 +29,7 @@ main {
 .hero {
   display: inline-block;
   position: relative;
-  margin: 0 auto;
+  padding: 1em;
   font-style: normal;
   text-align: center;
   color: #fed985;
