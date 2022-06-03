@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 nav {
@@ -31,48 +31,50 @@ main {
     3px     
     outset   
     rgba(0, 0, 0, 0.55);
-    background: rgba(255, 255,255, 0.1);
+    background:#feda852e; 
     display: flex;
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .hero img {
   position: relative;
-  padding-bottom: 0;
   width: 25em;
+  opacity: 0.85;
 }
 
 .hero_text {
-  display: inline-block;
-  position: relative;
+  display: grid;
   margin-top: 0;
   padding: 3em 1em;
-  font-style: normal;
-  text-align: center;
-  color: #fed985;
-}
-
-h1 {
+  max-width: 25em;
   font-family: "ChaletComprimeComprime";
-  font-size: 4em;
+  text-align: center;
+  color: #fff;
 }
 
 .hero p {
-  font-family: "ChaletComprimeComprime";
-  font-size: 1.5em;
+  margin: 0;
+  font-size: 2em;
+  font-style: italic;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
 }
 
 
 .home {
-  padding: 0.5rem;
+  padding: 0.5em;
   display: grid;
 }
 
 .location {
   font-family: "ChaletComprime";
-  font-size: x-large;
+  font-size: 2em;
   font-style: normal;
-  color: #fed985;
+  font-weight: 500;
+  color: #fff;
 }
 
 .logo {
@@ -87,7 +89,6 @@ h1 {
   font-family: "GrandTheftAuto";
   font-size: xx-large;
   list-style-type: none;
-  color: #fed985;
 }
 
 .nav-links {
@@ -95,7 +96,7 @@ h1 {
   border: none;
   text-transform: uppercase;
   text-decoration: none;
-  color: #feda85;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -108,11 +109,13 @@ h1 {
   transition: 0.3s;
 }
 
+.dropdown {
+  display: flex;
+}
 
 .contact_menu {
   position: absolute;
   opacity: 0;
-  border-radius: 0em 0em 0.25em 0.25em;
 }
 
 .contact_menu ul {
@@ -123,23 +126,29 @@ h1 {
   gap: 0.5em;
 }
 
+.contact_links {
+  opacity: 0.5;
+}
+
+.contact_links:hover {
+  opacity: 1;
+}
+
 .active:hover .contact_menu {
   opacity: 1;
   position: absolute;
-  top: calc(100% + 0.74em);
-  background: rgba(0, 0, 0, 0.5);
+  left: calc(100% + 0.74em);
 }
 
 footer {
   display: inline-block;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  right: 0.5em;
   padding: qem;
   font-family: "GrandTheftAuto";
   font-size: x-large;
   font-style: normal;
-  color: #fed985;
+  color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
 
