@@ -27,9 +27,26 @@ main {
 }
 
 .hero {
+  border:
+    3px     
+    outset   
+    rgba(0, 0, 0, 0.55);
+    background: rgba(255, 255,255, 0.1);
+    display: flex;
+    margin-top: 5em;
+}
+
+.hero img {
+  position: relative;
+  padding-bottom: 0;
+  width: 25em;
+}
+
+.hero_text {
   display: inline-block;
   position: relative;
-  padding: 1em;
+  margin-top: 0;
+  padding: 3em 1em;
   font-style: normal;
   text-align: center;
   color: #fed985;
@@ -37,25 +54,14 @@ main {
 
 h1 {
   font-family: "ChaletComprimeComprime";
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .hero p {
   font-family: "ChaletComprimeComprime";
-  font-size: xx-large;
+  font-size: 1.5em;
 }
 
-footer {
-  display: inline-block;
-  position: fixed;
-  bottom: 0;
-  padding: 1em;
-  font-family: "GrandTheftAuto";
-  font-size: x-large;
-  font-style: normal;
-  color: #fed985;
-  text-shadow: 1px 1px 3px #000;
-}
 
 .home {
   padding: 0.5rem;
@@ -124,6 +130,18 @@ footer {
   background: rgba(0, 0, 0, 0.5);
 }
 
+footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: qem;
+  font-family: "GrandTheftAuto";
+  font-size: x-large;
+  font-style: normal;
+  color: #fed985;
+  text-shadow: 1px 1px 3px #000;
+}
 
 @font-face {
   font-family: "GrandTheftAuto";
