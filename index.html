@@ -17,7 +17,7 @@
       <nav>
         <ul class="nav-items">
           <li class="active">
-            <a href="#top" class="nav-links">About</a>
+            <a href="#about" class="nav-links">About</a>
           </li>
           <li class="active">
             <a href="#skills" class="nav-links">Skills</a>
@@ -26,7 +26,7 @@
             <a href="#projects" class="nav-links">Projects</a>
           </li>
           <li class="active dropdown">
-            <button type="button" class="nav-links">Contact</button>
+            <span class="nav-links">Contact</span>
             <div class="contact_menu">
               <ul>
                 <li class="contact_links">
@@ -69,35 +69,39 @@
     </header>
 
     <main>
-      <div id="hero">
-        <img src="./src/avatar.png" alt="My photo" />
+      <section id="about">
+        <div id="hero">
+          <img src="./src/avatar.png" alt="My photo" />
         <div class="hero_text">
           <img src="./src/my_name.png" alt="Jeyhun Farajov" />
           <p>Just a man in a white coat.<br>Take that off, what are you?</p>
           <h1>Web Developer, Freelancer,<br> JavaScript Coder, Dreamer.</h1>
         </div>
-      </div>
+        </div>
+      </section>
+
+      <section id="skills">
+
+        <div class="skills_menu">
+          <div class="toggle" id="toggle" onclick="menu-expand()">
+            <img src="./src/skills-menu.png" alt="Skills menu" width="150em" id="knuckle">
+          </div>
+    
+          <div class="menu" id="menu">
+            <a href="#"><img src="./src/skills_item1.png" alt="js es" width="50%"></a>
+            <a href="#"><img src="./src/skills_item2.png" alt="react redux" width="40%"></a>
+            <a href="#"><img src="./src/skills_item3.png" alt="html css" width="50%"></a>
+            <a href="#"><img src="./src/skills_item4.png" alt="wp git" width="20%"></a>
+          </div>
+        </div>
+    
+      </section>
+
+      <footer>
+        <p>JEYEfEnDI &copy;&nbsp;2022. All rights reserved.</p>
+      </footer>
     </main>
 
-    <section id="skills">
-
-      <div class="skills_menu">
-        <div class="toggle" id="toggle" onclick="menu-expand()">
-          <img src="./src/skills-menu.png" alt="Skills menu" width="150em" id="knuckle">
-        </div>
-  
-        <div class="menu" id="menu">
-          <a href="#"><img src="./src/skills_item1.png" alt="js es" width="50%"></a>
-          <a href="#"><img src="./src/skills_item2.png" alt="react redux" width="40%"></a>
-          <a href="#"><img src="./src/skills_item3.png" alt="html css" width="50%"></a>
-          <a href="#"><img src="./src/skills_item4.png" alt="wp git" width="20%"></a>
-        </div>
-      </div>
-  
-    </section>
-    <footer>
-      <p>JEYEfEnDI &copy;&nbsp;2022. All rights reserved.</p>
-    </footer>
   <script src="./wheel.js"></script>
   </body>
 </html>
