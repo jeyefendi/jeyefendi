@@ -25,6 +25,7 @@ nav {
 
 .logo {
   padding: 0.5em;
+  min-width: 5vw;
 }
 
 
@@ -89,13 +90,14 @@ nav {
 
 
 .home {
-  padding: 0.5em;
+  padding: 0.5em 0.5em 0.5em 0;
   display: grid;
+  min-width: 5vw;
 }
 
 .location {
   font-family: "ChaletComprime";
-  font-size: 2em;
+  font-size: 1.2em;
   font-style: normal;
   font-weight: 500;
   color: #fff;
@@ -128,23 +130,17 @@ main {
   display: grid;
   margin: 0 auto;
   padding: 1em 1em 2em 1em;
-  font-family: "ChaletComprimeComprime";
+  font-family: "ChaletComprime";
   text-align: center;
   color: #fff;
 }
 
 
-#hero p {
-  margin: 0;
+#hero p, h1 {
+  margin: 0 auto;
   font-size: 2em;
-  font-style: italic;
+  letter-spacing: 0.1em;
 }
-
-h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
 
 footer {
   margin-top: 10em;
