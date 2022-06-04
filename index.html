@@ -2,27 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./css/style.css" />
     <title>JEYEFENDI</title>
     <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="https://jeyefendi.github.io/resume-page/"
-          ><img src="./src/logo-j.png" alt="Jeyefendi's Logo" width="50"
-        /></a>
+        <a href="https://jeyefendi.github.io/resume-page/">
+          <img src="./src/logo-j.png" alt="Jeyefendi's Logo" width="50"/>
+        </a>
       </div>
       <nav>
         <ul class="nav-items">
           <li class="active">
-            <a href="about.html" class="nav-links">About</a>
+            <a href="#top" class="nav-links">About</a>
           </li>
           <li class="active">
-            <a href="skills.html" class="nav-links">Skills</a>
+            <a href="#skills" class="nav-links">Skills</a>
           </li>
           <li class="active">
-            <a href="projects.html" class="nav-links">Projects</a>
+            <a href="#projects" class="nav-links">Projects</a>
           </li>
           <li class="active dropdown">
             <button class="nav-links">Contact</button>
@@ -63,12 +64,12 @@
       </nav>
       <div class="home">
         <img src="./src/home.png" alt="Home" width="50" />
-        <address class="location">Izmir | Turkey</address>
+        <address class="location">Istanbul | Turkey</address>
       </div>
     </header>
 
     <main>
-      <div class="hero">
+      <div id="hero">
         <img src="./src/avatar.png" alt="My photo" />
         <div class="hero_text">
           <img src="./src/my_name.png" alt="Jeyhun Farajov" />
@@ -77,8 +78,26 @@
         </div>
       </div>
     </main>
+
+    <section id="skills">
+
+      <div class="skills_menu">
+        <div class="toggle" id="toggle" onclick="menu-expand()">
+          <img src="./src/skills-menu.png" alt="Skills menu" width="150em" id="knuckle">
+        </div>
+  
+        <div class="menu" id="menu">
+          <a href="#"><img src="./src/skills_item1.png" alt="js es" width="50%"></a>
+          <a href="#"><img src="./src/skills_item2.png" alt="react redux" width="40%"></a>
+          <a href="#"><img src="./src/skills_item3.png" alt="html css" width="50%"></a>
+          <a href="#"><img src="./src/skills_item4.png" alt="wp git" width="20%"></a>
+        </div>
+      </div>
+  
+    </section>
     <footer>
       <p>JEYEfEnDI &copy;&nbsp;2022. All rights reserved.</p>
     </footer>
+  <script src="./wheel.js"></script>
   </body>
 </html>

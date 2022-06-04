@@ -1,31 +1,30 @@
-@import url(./style.css);
-
-main {
+#skills {
+    margin-top: 18em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.skills_menu {
+    border:
+      3px     
+      outset   
+      rgba(0, 0, 0, 0.55);
+      background:#feda852e; 
+      margin-top: 1em;
+      min-width: 54vw;
+
+}
+
 .toggle {
-    display: block;
-    position: absolute;
-    top: 20em;
-    bottom: 1;
-    right: 1;
-    left: 1;
-    margin: auto;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .menu {
     display: block;
-    position: absolute;
-    top: 20em;
-    bottom: 1;
-    right: 1;
-    left: 1;
-    margin: auto;
+    position: relative;
+    margin: 0 auto;
     border-radius: 50%;
     width: 12.5em;
     height: 12.5em;
@@ -36,28 +35,28 @@ main {
 
 .menu a{
     display: block;
-    position: absolute;
+    position: relative;
     transition: 0.4s;
     opacity: 0.7;
 }
 
 .menu a:nth-child(1){
-    top: 1.4em;
+    /* top: 1.4em;
     left: 2.75em;
-}
+} */
 
 .menu a:nth-child(2){
-    top: 2.9em;
-    left: 6.9em;
+    /* top: 2.9em;
+    left: 6.9em; */
 }
 
 .menu a:nth-child(3){
-    top: 7.1em;
-    left: 2.75em;
+    /* top: 7.1em;
+    left: 2.75em; */
 }
 
 .menu a:nth-child(4){
-    top: 2.8em;
-    left: 1.3em;
+    /* top: 2.8em;
+    left: 1.3em; */
 }
 
