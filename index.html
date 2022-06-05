@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
   </head>
   <body>
     <header>
@@ -84,23 +85,56 @@
 
         <div class="skills_menu">
           <div class="toggle" id="toggle" onclick="menu-expand()">
-            <img src="./src/skills-menu.png" alt="Skills menu" width="150em" id="knuckle">
+            <img src="./src/skills/skills-menu.png" alt="Skills menu" id="knuckle">
           </div>
     
           <div class="menu" id="menu">
-            <a href="#"><img src="./src/skills_item1.png" alt="js es" width="50%"></a>
-            <a href="#"><img src="./src/skills_item2.png" alt="react redux" width="40%"></a>
-            <a href="#"><img src="./src/skills_item3.png" alt="html css" width="50%"></a>
-            <a href="#"><img src="./src/skills_item4.png" alt="wp git" width="20%"></a>
+            <a href="#"><img src="./src/skills/skills_item1.png" alt="js es" width="50"></a>
+            <a href="#"><img src="./src/skills/skills_item2.png" alt="react redux" width="25"></a>
+            <a href="#"><img src="./src/skills/skills_item3.png" alt="html css" width="50"></a>
+            <a href="#"><img src="./src/skills/skills_item4.png" alt="wp git" width="25"></a>
           </div>
         </div>
     
       </section>
 
-      <footer>
-        <p>JEYEfEnDI &copy;&nbsp;2022. All rights reserved.</p>
-      </footer>
+      <section id="projects">
+        <ul class="portfolio">
+          <li>
+            <div class="project">
+              <a target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/insurance/"><img src="./src/projects/insurance.png" alt="Insurance"></a>
+                <h2>Insurance - landing page</h2>
+                <p>I built this project as a part of learning React.js. I just found a design layout that I liked and made it from scratch.</p>
+                <a class="github" target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/insurance">GitHub</a>
+            </div>
+          </li>
+          <li>
+            <div class="project">
+              <a target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/"><img src="./src/projects/null.png" alt=""></a>
+                <h2>Another Project</h2>
+                <p>In a few days I will push here some amazing projects. However, it's another story. Keep waiting and be happy!
+                </p>
+                <a class="github" target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/">GitHub</a>
+            </div>
+          </li>
+          <li>
+            <div class="project">
+              <a target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/"><img src="./src/projects/null.png" alt=""></a>
+                <h2>Another Project</h2>
+                <p>In a few days I will push here some amazing projects. However, it's another story. Keep waiting and be happy!
+                </p>
+                <a class="github" target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/">GitHub</a>
+            </div>
+          </li>
+          
+        </ul>
+      </section>
+
     </main>
+
+   <footer>
+    <p>JEYEfEnDI &copy;&nbsp;2022. All rights reserved.</p>
+   </footer>
 
   <script src="./wheel.js"></script>
   </body>

@@ -32,7 +32,7 @@ body {
 
 header {
   display: flex;
-  position: fixed;
+  position: absolute;
   justify-content: space-between;
   width: 100%;
   z-index: +1;
@@ -132,7 +132,7 @@ main {
 }
 
 section {
-  padding: 7em;
+  padding: 6em;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -173,9 +173,10 @@ section {
 }
 
 footer {
-  margin-top: 10em;
-  display: flex;
-  justify-content: end;
+  display: inline;
+  position: absolute;
+  right: 0;
+  padding: 1em 1em;
 }
 
 footer p {
