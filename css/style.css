@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "GrandTheftAuto";
+  src: url("../fonts/GrandTheftAuto/GrandTheftAuto.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ChaletComprime";
+  src: url("../fonts/ChaletComprime/ChaletComprime.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -24,29 +39,15 @@ header {
   background: rgba(0, 0, 0, 0.7);
 }
 
-main {
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-  overflow-y: scroll;
-}
-
-section {
-  padding: 7em;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  scroll-snap-align: start;
+.logo {
+  padding: 0.5em;
+  min-width: 5vw;
 }
 
 nav {
   display: block;
   padding: 0;
   margin: auto auto;
-}
-
-.logo {
-  padding: 0.5em;
-  min-width: 5vw;
 }
 
 
@@ -124,9 +125,21 @@ nav {
   color: #fff;
 }
 
+main {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
 
+section {
+  padding: 7em;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  scroll-snap-align: start;
+}
 
-#hero {
+.hero {
   border:
     3px     
     outset   
@@ -137,9 +150,9 @@ nav {
     width: 54vw;
 }
 
-#hero img {
+.hero img {
   position: relative;
-  width: 24vw;
+  width: 26vw;
   opacity: 0.9;
 }
 
@@ -153,7 +166,7 @@ nav {
 }
 
 
-#hero p, h1 {
+.hero p, h1 {
   margin: 0 auto;
   font-size: 2em;
   letter-spacing: 0.1em;
@@ -173,16 +186,3 @@ footer p {
   text-shadow: 1px 1px 3px #000;
 }
 
-@font-face {
-  font-family: "GrandTheftAuto";
-  src: url("../fonts/GrandTheftAuto/GrandTheftAuto.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "ChaletComprime";
-  src: url("../fonts/ChaletComprime/ChaletComprime.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
