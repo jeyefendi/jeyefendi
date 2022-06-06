@@ -24,6 +24,11 @@
     display: flex;
     position: relative;
     width: 100%;
+    opacity: 0.8;
+}
+
+.project img:hover {
+    opacity: 1;
 }
 
 .project h2 {
@@ -50,4 +55,8 @@
     justify-content: end;
     padding: 0 0.5vw 0.5vw 0;
     color: #fff;
+}
+
+.github:hover {
+    color: rgba(0, 0, 0, 0.55);
 }
