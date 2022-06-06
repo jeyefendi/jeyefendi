@@ -4,4 +4,4 @@ Stack:
 -JavaScript
 -React
 -HTML/CSS
-# www.jeyefendi.com
+# jeyefendi.com
