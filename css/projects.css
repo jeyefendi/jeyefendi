@@ -14,7 +14,7 @@
       3px     
       outset   
       rgba(0, 0, 0, 0.55);
-      background:#feda853f; 
+      background:#feda852e; 
       display: grid;
       width: 24vw;
       box-sizing: border-box;
@@ -47,16 +47,22 @@
 }
 
 .github {
-    display: inline;
+    padding: 0.1em 0.3em 0.1em 0.5em;
+    width: max-content;
     font-family: "ChaletComprime";
     font-weight: bold;
     font-size: xx-large;
-    display: flex;
-    justify-content: end;
-    padding: 0 0.5vw 0.5vw 0;
+    letter-spacing: 0.2em;    
+    margin: 0 0.5em 0.5em auto;
+    text-transform: uppercase;
+    text-decoration: none;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.55);
+    opacity: 0.8;
 }
 
 .github:hover {
-    color: rgba(0, 0, 0, 0.55);
+    color: #fed985;
+    background-color: #000;
+    opacity: 1;
 }
