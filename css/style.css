@@ -152,8 +152,9 @@ section {
 }
 
 .hero img {
+  display: flex;
   position: relative;
-  width: 26vw;
+  width: 50%;
   opacity: 0.9;
 }
 
@@ -166,6 +167,9 @@ section {
   color: #fff;
 }
 
+.hero_text img {
+  width: 100%;
+}
 
 .hero p, h1 {
   margin: 0 auto;
@@ -174,8 +178,8 @@ section {
 }
 
 footer {
-  display: inline;
-  position: absolute;
+  display: block;
+  position: sticky;
   right: 0;
   padding: 1em 1em;
 }
