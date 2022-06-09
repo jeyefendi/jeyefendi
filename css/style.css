@@ -160,6 +160,7 @@ section {
 
 .hero_text {
   display: grid;
+  width: 50%;
   margin: 0 auto;
   padding: 1em 1em 2em 1em;
   font-family: "ChaletComprime";
@@ -175,6 +176,7 @@ section {
   margin: 0 auto;
   font-size: 2em;
   letter-spacing: 0.1em;
+  max-width: 90%;
 }
 
 footer {
@@ -192,3 +194,42 @@ footer p {
   text-shadow: 1px 1px 3px #000;
 }
 
+@media all and (orientation: portrait), all and (max-width: 480px) {
+  .hero {
+    border:
+      3px     
+      outset   
+      rgba(0, 0, 0, 0.55);
+    background:#feda852e; 
+    display: grid;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .hero img {
+    display: grid;
+    position: relative;
+    width: 100%;
+    opacity: 0.9;
+    margin: 0;
+  }
+  
+  .hero_text {
+    width: 100%;
+    margin: 0;
+    font-family: "ChaletComprime";
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero_text img {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .hero p, h1 {
+    margin: 0 auto;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+  }
+}
