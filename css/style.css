@@ -59,7 +59,7 @@ nav {
   align-items: center;
   gap: 1em;
   font-family: "GrandTheftAuto";
-  font-size: xx-large;
+  font-size: 2.5em;
   list-style-type: none;
 }
 
@@ -206,8 +206,19 @@ footer p {
     background-position: center;
   }
   
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    font-family: "GrandTheftAuto";
+    font-size: 2.8em;
+    list-style-type: none;
+  }
+  
+
   section {
-    padding: 4em 4em 20em 4em;
+    padding: 4em 4em 12em 4em;
   }
   
   
