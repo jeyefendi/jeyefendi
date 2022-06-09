@@ -23,11 +23,12 @@
 }
 
 body {
-  background-image: url(../src/hero-bg.png);
+  background-image: url(../src/hero_bg.jpg);
   background-color: #000;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 
 header {
@@ -194,7 +195,16 @@ footer p {
   text-shadow: 1px 1px 3px #000;
 }
 
-@media all and (orientation: portrait), all and (max-width: 480px) {
+@media all and (orientation: portrait), all and (max-width: 1000px) {
+  body {
+    background-image: url(../src/hero_bg_portrait.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
   section {
     padding: 4em 4em 10em 4em;
   }
