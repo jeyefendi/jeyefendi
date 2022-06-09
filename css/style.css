@@ -197,7 +197,7 @@ footer p {
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   body {
-    background-image: url(../src/hero_bg_portrait.jpg);
+    background-image: url(../src/hero_bg_portrait.webp);
     background-color: #000;
     background-repeat: no-repeat;
     background-attachment: fixed;
