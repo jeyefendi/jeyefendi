@@ -241,13 +241,13 @@ footer p {
   }
   
   .hero_text img {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
   }
   
   .hero p, h1 {
-    margin: 0 auto  auto;
-    font-size: 2em;
+    margin: 0 auto;
+    font-size: 4em;
     letter-spacing: 0.1em;
   }
 }
