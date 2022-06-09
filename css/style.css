@@ -15,6 +15,7 @@
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -23,7 +24,7 @@
 }
 
 body {
-  background-image: url(../src/hero_bg.jpg);
+  background-image: url(../src/hero_bg.webp);
   background-color: #000;
   background-repeat: no-repeat;
   background-attachment: fixed;
