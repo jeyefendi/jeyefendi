@@ -129,16 +129,18 @@ nav {
 }
 
 main {
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-  overflow-y: scroll;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  width: 100vw;
+  overflow-x: scroll;
 }
 
 section {
-  padding: 6em;
+  flex: none;
+  padding: 2em;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  width: 100vw;
   scroll-snap-align: start;
 }
 
@@ -149,8 +151,9 @@ section {
     rgba(0, 0, 0, 0.55);
     background:#feda852e; 
     display: flex;
-    margin-top: 4em;
-    width: 54vw;
+    width: 64vw;
+    height: 80vh;
+    margin-top: 6em;
 }
 
 .hero img {
@@ -184,7 +187,6 @@ section {
 footer {
   display: block;
   position: sticky;
-  right: 0;
   padding: 1em 1em;
 }
 
@@ -199,10 +201,6 @@ footer p {
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   body {
     background-image: url(../src/hero_bg_portrait.webp);
-    background-color: #000;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     background-position: center;
   }
   

@@ -33,10 +33,10 @@
 
 .project_description {
     display: grid;
-    gap: 0.5em;
+    gap: 0.1em;
     min-height: 26vh;
     margin: 0;
-    padding: 0.5vw;
+    padding: 0.1vw;
 }
 
 .project h2 {
@@ -54,7 +54,7 @@
 
 .github {
     padding: 0.1em 0.3em 0.1em 0.5em;
-    width: max-content;
+    width: auto;
     font-weight: bold;
     font-size: 2em;
     letter-spacing: 0.2em;    
@@ -80,11 +80,13 @@
     
     .portfolio {
         display: grid;
+        flex: none;
         position: relative;
         font-family: "ChaletComprime";
         color: #fff;
         list-style-type: none;
         margin-top: 4em;
+        gap: 8em;
       }
    
       .project {
@@ -94,33 +96,40 @@
           rgba(0, 0, 0, 0.55);
           background:#feda852e; 
           display: grid;
-          width: 48vw;
+          width: 72vw;
           box-sizing: border-box;
     }
-    
-    .project img {
-        position: relative;
-        width: 100%;
-        opacity: 0.7;
-    }
-    
-    .project img:hover {
-        opacity: 1;
+
+    .project_description {
+        max-height: 20vh;
+        margin: 0;
+        padding: 0.1vw;
     }
     
     .project h2 {
-        margin: 0;
-        padding: 0.5vw;
         text-align: left;
-        font-size: x-large;
         letter-spacing: 0.1vw;
+        font-size: 6em;
     }
     
     .project p {
-        margin: 0;
-        padding: 0.5vw;
-        font-size: x-large;
+        display: block;
         text-align: justify;
-    }  
+        font-size: 4em;
+    }
           
+    .github {
+        padding: 0.1em 0.3em 0.1em 0.5em;
+        width: auto;
+        font-weight: bold;
+        font-size: 4em;
+        letter-spacing: 0.1em;    
+        margin: 0 0 0 auto;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.55);
+        opacity: 0.8;
+    }
 }
+
