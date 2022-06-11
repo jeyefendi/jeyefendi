@@ -31,29 +31,34 @@
     opacity: 1;
 }
 
-.project h2 {
+.project_description {
+    display: grid;
+    gap: 0.5em;
+    min-height: 26vh;
     margin: 0;
     padding: 0.5vw;
+}
+
+.project h2 {
     text-align: left;
-    font-size: x-large;
     letter-spacing: 0.1vw;
+    font-size: 2em;
 }
 
 .project p {
-    margin: 0;
-    padding: 0.5vw;
-    font-size: x-large;
+    display: block;
+    min-height: 4em;
     text-align: justify;
+    font-size: 1.5em;
 }
 
 .github {
     padding: 0.1em 0.3em 0.1em 0.5em;
     width: max-content;
-    font-family: "ChaletComprime";
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 2em;
     letter-spacing: 0.2em;    
-    margin: 0 0.5em 0.5em auto;
+    margin: 0 0 0 auto;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
