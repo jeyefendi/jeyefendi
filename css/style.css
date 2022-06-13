@@ -77,10 +77,12 @@ nav {
 }
 
 
+
 .active:hover {
   transform:scale(1.2);
   transition: 0.3s;
 }
+
 
 .dropdown {
   display: flex;
