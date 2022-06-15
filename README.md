@@ -1,11 +1,16 @@
-# J E Y E F E N D I
-Hi there! I am Jeyhun Farajov. 
-<br>And I'm Front-End Developer.
-# [JEYEFENDI.COM](https://jeyefendi.com)
-> JavaScript:
+# [![Logo](./jf-logo.png)](https://jeyefendi.com)<br>jeyefendi.com
+## S T A C K :
+**JavaScript**
 >ES6+<br>
 >React.js<br>
 >Typescript<br>
 
-# 
+**HTML | CSS**
+>SASS / SCSS<br>
+>Flexbox / Grid<br>
+>Bootstrap5 / Tailwind
 
+**Other**
+>Wordpress<br>
+>PHP / Node.js<br>
+>Figma / Adobe PS
