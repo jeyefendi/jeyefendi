@@ -9,3 +9,8 @@
 >SASS / SCSS<br>
 >Flexbox / Grid<br>
 >Bootstrap5 / Tailwind
+
+**Other**
+>Wordpress<br>
+>PHP / Node.js<br>
+>Figma / Adobe PS
