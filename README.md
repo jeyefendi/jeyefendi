@@ -6,6 +6,6 @@
 >Typescript<br>
 
 **HTML | CSS**
->Bootstrap5 / Tailwind<br>
 >SASS / SCSS<br>
->Flexbox / Grid
+>Flexbox / Grid<br>
+>Bootstrap5 / Tailwind
