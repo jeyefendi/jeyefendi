@@ -4,6 +4,7 @@
 >ES6+<br>
 >React.js<br>
 >Typescript<br>
+
 **HTML | CSS**
 >Bootstrap5 / Tailwind
 >SASS / SCSS
