@@ -11,17 +11,19 @@
       rgba(0, 0, 0, 0.55);
       background:#feda852e; 
       min-width: 54vw;
-
+      position: relative;
+      margin: 0 auto;
 }
 
 .toggle {
-    border-radius: 50%;
     cursor: pointer;
+    position: absolute;
+    margin: 0 auto;
+
 }
 
 .menu {
-    display: block;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     border-radius: 50%;
     width: 12.5em;
@@ -33,28 +35,28 @@
 
 .menu a{
     display: block;
-    position: relative;
+    position: absolute;
     transition: 0.4s;
     opacity: 0.7;
 }
 
 .menu a:nth-child(1){
-    /* top: 1.4em;
+    top: 1.4em;
     left: 2.75em;
-} */
+}
 
 .menu a:nth-child(2){
-    /* top: 2.9em;
-    left: 6.9em; */
+    top: 2.9em;
+    left: 6.9em;
 }
 
 .menu a:nth-child(3){
-    /* top: 7.1em;
-    left: 2.75em; */
+    top: 7.1em;
+    left: 2.75em;
 }
 
 .menu a:nth-child(4){
-    /* top: 2.8em;
-    left: 1.3em; */
+    top: 2.8em;
+    left: 1.3em;
 }
 
