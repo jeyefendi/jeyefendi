@@ -1,7 +1,11 @@
-# JEYEFENDI
-Hi there! I am Jeyhun Farajov. I really love Front-End Development.
-Stack:
--JavaScript
--React
--HTML/CSS
-# http://jeyefendi.com
+# J E Y E F E N D I
+Hi there! I am Jeyhun Farajov. 
+<br>And I'm Front-End Developer.
+# [JEYEFENDI.COM](https://jeyefendi.com)
+> JavaScript:
+>ES6+<br>
+>React.js<br>
+>Typescript<br>
+
+# 
+
