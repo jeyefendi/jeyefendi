@@ -24,7 +24,7 @@
     display: flex;
     position: relative;
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 .project img:hover {
@@ -36,7 +36,7 @@
     gap: 0.1em;
     min-height: 26vh;
     margin: 0;
-    padding: 0.1vw;
+    padding: 0.5em;
 }
 
 .project h2 {
