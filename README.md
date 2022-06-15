@@ -1,5 +1,6 @@
 # JEYHUN FARAJOV
-# [![Logo](https://github.com/jeyefendi/jeyefendi/blob/main/public/logo192.png)](https://jeyefendi.com) G<br>E<br>T
+# [![Logo](https://github.com/jeyefendi/jeyefendi/blob/main/public/logo192.png)](https://jeyefendi.com)
+jeyefendi.com
 >▲GET IN TOUCH▲
 
 > JavaScript:
