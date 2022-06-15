@@ -1,5 +1,6 @@
 # J E Y E F E N D Ix
-Hi there! I am Jeyhun Farajov. And I'm Front-End Developer.<br>
+Hi there! I am Jeyhun Farajov. 
+<br>And I'm Front-End Developer.
 # https://jeyefendi.com
 
 # JavaScript:
