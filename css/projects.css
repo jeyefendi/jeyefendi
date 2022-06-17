@@ -1,5 +1,11 @@
+.rows {
+    padding-top: 2em;
+    display: grid;
+}
+
 .portfolio {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   gap: 1em;
