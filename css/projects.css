@@ -30,11 +30,6 @@
     display: flex;
     position: relative;
     width: 100%;
-    opacity: 0.75;
-}
-
-.project img:hover {
-    opacity: 1;
 }
 
 .project_description {
@@ -58,21 +53,28 @@
     font-size: 1.5em;
 }
 
-.github {
+.project_links {
+    display: flex;
+    margin-left: 8em;
+}
+
+
+.project_links a {
     padding: 0.1em 0.3em 0.1em 0.5em;
     width: auto;
     font-weight: bold;
     font-size: 2em;
     letter-spacing: 0.2em;    
-    margin: 0 0 0 auto;
+    margin: 0 0.3em;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.55);
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
-.github:hover {
+
+.project_links a:hover {
     color: #fed985;
     background-color: #000;
     opacity: 1;
@@ -123,19 +125,30 @@
         text-align: justify;
         font-size: 4em;
     }
-          
-    .github {
+    
+    .project_links {
+        display: flex;
+        margin-left: 8em;
+    }
+    
+    
+    .project_links a {
         padding: 0.1em 0.3em 0.1em 0.5em;
         width: auto;
         font-weight: bold;
         font-size: 4em;
-        letter-spacing: 0.1em;    
-        margin: 0 0 0 auto;
+        letter-spacing: 0.2em;    
+        margin: 0.3em 0.3em;
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
-        background-color: rgba(0, 0, 0, 0.55);
-        opacity: 0.8;
+        background-color: rgba(0, 0, 0, 0.75);
     }
+    
+    
+    .project_links a:hover {
+        opacity: 1;
+    }
+
 }
 
