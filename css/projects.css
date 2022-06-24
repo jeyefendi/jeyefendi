@@ -6,7 +6,7 @@
 .portfolio {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 1em;
   font-family: "ChaletComprime";
