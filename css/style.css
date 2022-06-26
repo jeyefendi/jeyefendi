@@ -12,15 +12,18 @@
   font-weight: normal;
 }
 
+html {
+  overflow-x: hidden;
+}
+
+main::-webkit-scrollbar {
+  width: 0;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-::-webkit-scrollbar {
-  width: 0;
 }
 
 body {

@@ -68,8 +68,13 @@
 
 .project p {
     display: block;
-    min-height: 4em;
     text-align: justify;
+    font-size: 1.5em;
+}
+
+.project span {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
     font-size: 1.5em;
 }
 
