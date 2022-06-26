@@ -80,7 +80,7 @@
 
 .project_links {
     display: flex;
-    margin-left: 8em;
+    justify-content: end;
 }
 
 
@@ -90,7 +90,7 @@
     font-weight: bold;
     font-size: 2em;
     letter-spacing: 0.2em;    
-    margin: 0 0.3em;
+    margin: 0.3em;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
