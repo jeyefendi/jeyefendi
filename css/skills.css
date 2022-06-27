@@ -1,25 +1,21 @@
 #skills {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .skills_menu {
-    border:
-      3px     
-      outset   
-      rgba(0, 0, 0, 0.55);
-      background:#feda852e; 
-      min-width: 54vw;
+    padding-top: 10em;
       position: relative;
       margin: 0 auto;
+      display: flex;
+      justify-content: center;
 }
 
 .toggle {
     cursor: pointer;
     position: absolute;
     margin: 0 auto;
-
 }
 
 .menu {
@@ -40,7 +36,7 @@
     opacity: 0.7;
 }
 
-.menu a:nth-child(1){
+/* .menu a:nth-child(1){
     top: 1.4em;
     left: 2.75em;
 }
@@ -59,4 +55,4 @@
     top: 2.8em;
     left: 1.3em;
 }
-
+ */
