@@ -64,6 +64,7 @@
     text-align: left;
     letter-spacing: 0.1vw;
     font-size: 2em;
+    text-shadow: 0.1em 0.1em  rgba(0, 0, 0, 0.5);
 }
 
 .project p {
