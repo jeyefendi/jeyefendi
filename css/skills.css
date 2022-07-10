@@ -3,12 +3,12 @@
 }
 
 #knuckle {
-    margin-top: 0.1em;
+    width: 8em;
 }
 
 
 .skills_menu {
-    padding-top: 10em;
+    padding-top: 12em;
       position: relative;
       margin: 0 auto;
       display: flex;
@@ -37,21 +37,22 @@
     transition: 0.4s;
 }
 
+
 .menu a:nth-child(1){
-    top: 1.4em;
+    top: 0.4em;
 }
 
 .menu a:nth-child(2){
-    top: 2.4em;
-    left: 7.5em;
+    top: 2em;
+    left: 8.2em;
 }
 
 .menu a:nth-child(3){
-    top: 6em;
+    top: 7em;
 }
 
 .menu a:nth-child(4){
-    top: 2.4em;
-    left: 2.9em;
+    top: 2em;
+    left: 1.6em;
 }
 
