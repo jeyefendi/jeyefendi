@@ -239,6 +239,7 @@ footer p {
   .hero img {
     width: 100%;
     padding: 0.2em;
+    margin: 0 auto;
   }
   
   .hero_text {
