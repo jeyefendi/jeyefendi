@@ -208,17 +208,13 @@ footer p {
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   body {
     background-image: url(../src/hero_bg_portrait.webp);
+    background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
   
   .nav-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1em;
-    font-family: "GrandTheftAuto";
-    font-size: 2.8em;
-    list-style-type: none;
+    font-size: 3em;
   }
   
 
@@ -228,42 +224,31 @@ footer p {
   
   
   .hero {
-    border:
-      3px     
-      outset   
-      rgba(0, 0, 0, 0.55);
-    background:#feda852e; 
     display: grid;
     position: relative;
-    width: 100%;
+    width: 64vw;
+    height: fit-content;
     margin-top: 6em;
   }
   
   .hero img {
-    display: grid;
-    position: relative;
     width: 100%;
-    opacity: 0.9;
-    margin: 0;
+    padding: 0.2em;
   }
   
   .hero_text {
     width: 100%;
-    position: relative;
-    margin: 0 auto;
-    font-family: "ChaletComprime";
-    text-align: center;
-    color: #fff;
+    height: 30vh;
   }
   
   .hero_text img {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
   }
   
   .hero p, h1 {
     margin: 0 auto;
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 0.1em;
   }
 }
