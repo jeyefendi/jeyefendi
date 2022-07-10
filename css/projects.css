@@ -103,7 +103,7 @@
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .portfolio {
     display: grid;
-    gap: 4em;
+    gap: 5em;
   }
 
   .project {
