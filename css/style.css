@@ -207,10 +207,11 @@ footer p {
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   body {
-    background-image: url(../src/hero_bg_portrait.webp);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url(../src/hero_bg_portrait.webp) no-repeat cover center center fixed;
+    margin: 0;
+    padding: 0;
   }
   
   .nav-items {
