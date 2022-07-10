@@ -10,7 +10,6 @@
 .skills_menu {
     padding-top: 12em;
       position: relative;
-      margin: 0 auto;
       display: flex;
       justify-content: center;
 }
