@@ -150,11 +150,6 @@ section {
 }
 
 .hero {
-  /* border:
-    3px     
-    outset   
-    rgba(0, 0, 0, 0.55);
-    background:#feda852e;  */
     display: flex;
     justify-content: center;
     width: 50vw;
@@ -166,13 +161,13 @@ section {
   display: flex;
   position: relative;
   object-fit: cover;
-  max-width: fit-content;
-  height: 100%;
+  width: fit-content;
+  height: 60vh;
 }
 
 .hero_text {
   display: grid;
-  width: fit-content;
+  width: 25vw;
   height: fit-content;
   margin: 0;
   padding: 0;
@@ -191,8 +186,9 @@ section {
 
 .hero p, h1 {
   margin: 0.1em auto;
-  font-size: 2.25em;
+  font-size: 2em;
   max-width: 100%;
+  text-shadow: 0.1em 0.05em rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -237,7 +233,8 @@ footer p {
   }
   
   .hero img {
-    width: 100%;
+    width: 75%;
+    height: fit-content;
     padding: 0.2em;
     margin: 0 auto;
   }
