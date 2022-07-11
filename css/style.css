@@ -163,6 +163,7 @@ section {
   object-fit: cover;
   width: fit-content;
   height: 60vh;
+  margin-left: 3em;
 }
 
 .hero_text {
@@ -177,18 +178,18 @@ section {
 }
 
 .hero_text img {
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
   height: fit-content;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .hero p, h1 {
   margin: 0.1em auto;
-  font-size: 2em;
+  font-size: 2.5vw;
   max-width: 100%;
-  text-shadow: 0.1em 0.05em rgba(0, 0, 0, 0.5);
+  text-shadow: 0.1em 0.05em rgb(0, 0, 0);
 }
 
 footer {
@@ -245,7 +246,7 @@ footer p {
   }
   
   .hero_text img {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   
