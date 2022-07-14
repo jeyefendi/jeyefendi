@@ -210,7 +210,7 @@ footer p {
   body {
     width: 100vw;
     height: 100vh;
-    background: url(../src/hero_bg_portrait.webp) no-repeat cover center center fixed;
+    background: url(../src/hero_bg_m.webp) no-repeat cover center center fixed;
     margin: 0;
     padding: 0;
   }
@@ -221,20 +221,20 @@ footer p {
   
 
   section {
-    padding: 4em 4em 12em 4em;
+    padding: 2em 2em 6em 2em;
   }
   
   
   .hero {
     display: grid;
     position: relative;
-    width: 64vw;
+    max-width: fit-content;
     height: fit-content;
     margin-top: 6em;
   }
   
   .hero img {
-    width: 50%;
+    width: fit-content;
     height: fit-content;
     padding: 0.2em;
     margin: 0 auto;
@@ -252,7 +252,7 @@ footer p {
   
   .hero p, h1 {
     margin: 0 auto;
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: 0.1em;
   }
 }
