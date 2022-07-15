@@ -3,6 +3,7 @@
 **JavaScript**
 >ES6+<br>
 >React.js<br>
+>Next.js<br>
 >Typescript<br>
 
 **HTML | CSS**
