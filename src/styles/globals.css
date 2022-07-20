@@ -72,19 +72,6 @@ section {
   width: 100vw;
 }
 
-footer {
-  display: block;
-  position: absolute;
-  padding: 1em 1em;
-  bottom: 0;
-  right: 0;
-  font-family: "GrandTheftAuto";
-  font-size: x-large;
-  font-style: normal;
-  color: #fff;
-  text-shadow: 0.5em 0.5em 1em #000;
-}
-
 .error_404 {
   display: grid;
   justify-content: center;

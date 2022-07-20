@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "../src/styles/Header.module.css";
+import styles from "../src/styles/Layout.module.css";
 
 const Header = () => {
   return (

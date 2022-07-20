@@ -38,3 +38,33 @@
   font-weight: 500;
   color: #fff;
 }
+
+.social {
+  display: flex;
+  position: absolute;
+  padding: 1em 2em;
+  gap: 1em;
+  bottom: 0;
+  left: 0;
+}
+
+.icon {
+  color:#000;
+}
+
+.icon:hover {
+  color:#fed985;
+}
+
+.copyright {
+  display: block;
+  position: absolute;
+  padding: 1em;
+  bottom: 0;
+  right: 0;
+  font-family: "GrandTheftAuto";
+  font-size: x-large;
+  font-style: normal;
+  color: #fff;
+  text-shadow: 0.5em 0.5em 1em #000;
+}
