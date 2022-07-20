@@ -1,0 +1,37 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 8.5em;
+    gap: 2em;
+}
+
+.avatar {
+  position: relative;
+  width: 9vw;
+  height: 60vh;
+}
+
+.hero_text {
+  display: grid;
+  margin-top: 2em;
+  width: 16vw;
+  height: fit-content;
+  font-family: "ChaletComprime";
+  text-align: center;
+  color: #fff;
+}
+
+.name {
+  margin-bottom: 1em;
+}
+
+.quote {
+  margin: 0.1em auto;
+  max-width: 100%;
+  font-size: 2em;
+  text-shadow: 0.1em 0.05em rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25em 0.25em;
+}

@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "GrandTheftAuto";
+  src: url("../fonts/GrandTheftAuto/GrandTheftAuto.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ChaletComprime";
+  src: url("../fonts/ChaletComprime/ChaletComprime.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/bg.webp);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  z-index: +1;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  font-family: "GrandTheftAuto";
+  font-size: 2.5em;
+  list-style-type: none;
+  margin: auto auto;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  width: 100vw;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  padding: 1em 1em;
+  bottom: 0;
+  right: 0;
+  font-family: "GrandTheftAuto";
+  font-size: x-large;
+  font-style: normal;
+  color: #fff;
+  text-shadow: 0.5em 0.5em 1em #000;
+}
+
+.error_404 {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 10em;
+  color: #fff;
+  font-family: 'GrandTheftAuto';
+  text-shadow: 0.5em 0.5em 1em #000;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.error_404 h1 {
+  font-size: 12em;
+  font-weight: 400;
+}
+
+.error_404 h2 {
+  padding: 0.25em;
+  font-family: "ChaletComprime";
+  font-size: 4em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25em 0.25em;
+}

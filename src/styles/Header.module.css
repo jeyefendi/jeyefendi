@@ -1,0 +1,43 @@
+.logo {
+  padding: 0.5em;
+  max-width: 4vw;
+}
+
+.logo img {
+    color:#fff;
+}
+
+
+.nav_links {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav_links:hover {
+  color: #fed985;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.home {
+  padding: 0.5em 1em;
+  display: grid;
+}
+
+.house {
+  position: relative;
+  width: 3em;
+  height: 3em;
+}
+
+.location {
+  font-family: "ChaletComprime";
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+}
