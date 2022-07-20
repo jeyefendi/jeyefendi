@@ -32,7 +32,7 @@ a {
 }
 
 body {
-  background-image: url(../img/bg.webp);
+  background-image: url(/bg.webp);
   background-color: #000;
   background-repeat: no-repeat;
   background-attachment: fixed;

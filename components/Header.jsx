@@ -9,7 +9,7 @@ const Header = () => {
       <div className={styles.logo}>
         <Link href="/">
           <a>
-            <Image src="/logo.webp" alt="me" width="64" height="101" />
+            <Image src="/logo.webp" alt="me" layout="fill"/>
           </a>
         </Link>
       </div>

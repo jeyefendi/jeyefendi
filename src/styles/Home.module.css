@@ -3,18 +3,21 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    padding-top: 8.5em;
+    padding-top: 7em;
     gap: 2em;
 }
 
 .avatar {
   position: relative;
-  width: 9vw;
-  height: 60vh;
+  width: 135px;
+  height: 500px;
 }
 
 .hero_text {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 2em;
   width: 16vw;
   height: fit-content;
@@ -24,7 +27,11 @@
 }
 
 .name {
-  margin-bottom: 1em;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 2em;
+  width: 275px;
+  height: 180px;
 }
 
 .quote {

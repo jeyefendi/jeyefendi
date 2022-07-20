@@ -1,12 +1,9 @@
 .logo {
-  padding: 0.5em;
-  max-width: 4vw;
+  position: relative;
+  margin: 0.5em;
+  width: 40px;
+  height: 64px;
 }
-
-.logo img {
-    color:#fff;
-}
-
 
 .nav_links {
   background: none;
@@ -30,8 +27,8 @@
 
 .house {
   position: relative;
-  width: 3em;
-  height: 3em;
+  width: 48px;
+  height: 48px;
 }
 
 .location {
