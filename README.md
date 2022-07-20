@@ -1,4 +1,4 @@
-# [![Logo](./jf-logo.png)](https://jeyefendi.com)<br>jeyefendi.com
+# [![Logo](./jeyefendi.png)](https://jeyefendi.com)<br>jeyefendi.com
 ## S T A C K :
 **JavaScript**
 >ES6+<br>
