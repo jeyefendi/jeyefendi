@@ -1,9 +1,15 @@
+import Head from "next/head";
 import Image from "next/image";
-import styles from '../src/styles/Projects.module.css';
+import styles from "../src/styles/Projects.module.css";
 
 export default function About() {
   return (
-    <section className={styles.projects}>
-    </section>  
-  )
+    <>
+      <Head>
+        <title>PROJECTS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="JavaScript, React, Next.js, Web Developer, Frontend, Front-End"/>
+      </Head>
+    </>
+  );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../src/styles/Layout.module.css";
 import { ImGithub } from "react-icons/im";
+import { SiTelegram } from "react-icons/si";
 import { ImLinkedin } from "react-icons/im";
 import { ImFacebook2 } from "react-icons/im";
 import { GrInstagram } from "react-icons/gr";
@@ -12,6 +13,9 @@ const Footer = () => {
       <div className={styles.social}>
         <div className={styles.icon}>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi"><ImGithub size='2em'/></a> 
+        </div>
+        <div className={styles.icon}>
+        <a target="_blank" rel="noopener noreferrer" href="https://tlgg.ru/jeyefendi"><SiTelegram size='2em' /></a>
         </div>
         <div className={styles.icon}>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeyefendi/"><ImLinkedin size='2em' /></a>
