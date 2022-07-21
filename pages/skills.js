@@ -1,11 +1,6 @@
 import Image from "next/image";
 import Script from 'next/script'
 import styles from '../src/styles/Skills.module.css';
-import knuckle from '../src/img/skills/skills-menu.webp';
-import item_1 from '../src/img/skills/skills_item1.webp';
-import item_2 from '../src/img/skills/skills_item2.webp';
-import item_3 from '../src/img/skills/skills_item3.webp';
-import item_4 from '../src/img/skills/skills_item4.webp';
 import Wheel from '../components/wheel'
 
 export default function Skills() {
@@ -13,14 +8,14 @@ export default function Skills() {
     <section className={styles.skills}>
     <div className={styles.skills_menu}>
       <div className={styles.toggle} id="toggle" >
-      <Image src={knuckle} alt="Skills menu" id="knuckle" width="150" height="150" onclick="menu-expand()"/>
+      <Image alt="Knuckle" src="/skills/knuckle.webp" layout="fill" onclick="menu-expand()"/>
       </div>
 
       <div className={styles.menu} id="menu">
-        <a href="#"><Image src={item_1} alt="" /></a>
-        <a href="#"><Image src={item_2} alt="" /></a>
-        <a href="#"><Image src={item_3} alt="" /></a>
-        <a href="#"><Image src={item_4} alt="" /></a>
+      <Image alt="Item_1" src="/skills/item_1.webp" layout="fill"/>
+      <Image alt="Item_2" src="/skills/item_2.webp" layout="fill"/>
+      <Image alt="Item_3" src="/skills/item_3.webp" layout="fill"/>
+      <Image alt="Item_4" src="/skills/item_4.webp" layout="fill"/>
       </div>
     </div>
     <>
