@@ -16,8 +16,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "ChaletComprime";
 }
 
 a {
@@ -78,7 +77,6 @@ section {
   text-align: center;
   padding: 10em;
   color: #fff;
-  font-family: 'GrandTheftAuto';
   text-shadow: 0.5em 0.5em 1em #000;
   font-style: normal;
   text-decoration: none;
@@ -86,14 +84,52 @@ section {
 }
 
 .error_404 h1 {
+  font-family: "GrandTheftAuto";
   font-size: 12em;
   font-weight: 400;
 }
 
 .error_404 h2 {
   padding: 0.25em;
-  font-family: "ChaletComprime";
   font-size: 4em;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.25em 0.25em;
+}
+
+@media all and (orientation: portrait), all and (max-width: 1000px) {
+  .nav_links {
+    font-size: 0.1em;
+  }
+
+  .hero {
+    display: grid;
+    position: relative;
+    max-width: fit-content;
+    height: fit-content;
+    margin-top: 6em;
+  }
+
+  .hero img {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.2em;
+    margin: 0 auto;
+  }
+
+  .hero_text {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .hero_text img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero p,
+  h1 {
+    margin: 0 auto;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+  }
 }

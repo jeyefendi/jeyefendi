@@ -1,0 +1,88 @@
+.portfolio {
+  padding-top: 10em;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.project {
+  border: 3px outset rgba(0, 0, 0, 0.55);
+  background: #feda852e;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 407px;
+  box-sizing: border-box;
+}
+
+.project_preview {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+
+.visit {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.project_preview:hover .visit {
+  opacity: 1;
+}
+
+.project_description {
+  display: grid;
+  gap: 0.1em;
+  min-height: 26vh;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.project h2 {
+  letter-spacing: 0.1vw;
+  font-size: 2em;
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5);
+}
+
+.project p {
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.project span {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.project_links {
+  display: flex;
+  justify-content: end;
+}
+
+.project_links a {
+  padding: 0.1em 0.3em 0.1em 0.5em;
+  width: auto;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  margin: 0.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.55);
+  opacity: 0.75;
+}
+
+.project_links a:hover {
+  color: #fed985;
+  background-color: #000;
+  opacity: 1;
+}
