@@ -96,6 +96,11 @@ section {
   border-radius: 0.25em 0.25em;
 }
 
+.slick-slide {
+  padding: 0 25px;
+}
+
+
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .nav_links {
     font-size: 0.1em;
@@ -133,3 +138,4 @@ section {
     letter-spacing: 0.1em;
   }
 }
+
