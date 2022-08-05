@@ -10,14 +10,14 @@
   border-radius: 2.5%;
   background: #feda853f;
   width: 350px;
-  height: 520px;
+  height: 500px;
   box-sizing: border-box;
 }
 
 .project_preview {
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 70%;
   margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .project_title {
-  min-height: 110px;
+  min-height: 100px;
   letter-spacing: 0.1vw;
 }
 
@@ -56,7 +56,7 @@
 .project_title p {
   text-align: justify;
   font-size: 1.25em;
-  margin: 0.25em 0;
+  margin-top: 0.25em;
 }
 
 
@@ -72,7 +72,7 @@
   font-weight: bold;
   font-size: 1.5em;
   letter-spacing: 0.2em;
-  margin: 0.3em;
+  margin: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;

@@ -8,11 +8,12 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
-      infinite: false,
-      speed: 500,
+      infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 3,
-      initialSlide: 0,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
       responsive: [
         {
           breakpoint: 1024,
@@ -52,7 +53,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/anime.webp" layout="fill" />
+                <Image alt="" src="/projects/project1.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -69,13 +70,13 @@ export default class SimpleSlider extends Component {
             
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/tourkey.webp" layout="fill" />
+                <Image alt="" src="/projects/project2.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
                 <h2>TourKey - pet-project</h2>
                 <span>HTML</span> <span>SCSS</span> <span>JS</span> <span>jQuery</span> <span>BootStrap</span>
-                <p>Made from .psd scratch with a little of my creativity</p>
+                <p>Made from PSD scratch with a little of creativity</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/tourkey/">Live</a>
@@ -86,7 +87,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/insurance.webp" layout="fill" />
+                <Image alt="" src="/projects/project3.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -103,7 +104,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/onpoint.webp" layout="fill" />
+                <Image alt="" src="/projects/project4.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
