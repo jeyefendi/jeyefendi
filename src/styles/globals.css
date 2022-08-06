@@ -102,9 +102,6 @@ section {
 
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
-  .nav_links {
-    font-size: 0.1em;
-  }
 
   .hero {
     display: grid;

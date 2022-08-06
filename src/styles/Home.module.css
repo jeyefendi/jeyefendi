@@ -9,8 +9,8 @@
 
 .avatar {
   position: relative;
-  width: 135px;
-  height: 500px;
+  width: 8.5em;
+  height: 31em;
 }
 
 .hero_text {
@@ -40,4 +40,49 @@
   text-shadow: 0.1em 0.05em rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.25em 0.25em;
+}
+
+@media all and (orientation: portrait), all and (max-width: 1000px) {
+  .hero {
+    display: grid;
+    padding-top: 5em;
+    gap: 0.5em;
+}
+
+.avatar {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 9em;
+  width: 6.375em;
+  height: 23.25em;
+}
+
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  width: 72vw;
+  height: fit-content;
+  text-align: center;
+  color: #fff;
+}
+
+.name {
+  position: absolute;
+  top: 5em;
+  margin-bottom: 2em;
+  width: 11.45em;
+  height: 7.5em;
+}
+
+.quote {
+  margin: 0.2em auto;
+  max-width: 60%;
+  font-size: 1.5em;
+  text-shadow: 0.1em 0.05em rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25em 0.25em;
+}
 }

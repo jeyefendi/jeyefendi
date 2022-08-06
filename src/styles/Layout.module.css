@@ -1,8 +1,8 @@
 .logo {
   position: relative;
   margin: 0.5em;
-  width: 40px;
-  height: 64px;
+  width: 2.5em;
+  height: 4em;
 }
 
 
@@ -28,8 +28,8 @@
 
 .house {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 3em;
+  height: 3em;
 }
 
 .location {
@@ -68,4 +68,54 @@
   font-style: normal;
   color: #fff;
   text-shadow: 0.5em 0.5em 1em #000;
+}
+
+
+@media all and (orientation: portrait), all and (max-width: 1000px) {
+  .logo {
+    margin: 0.1em;
+    width: 1.25em;
+    height: 2em;
+  }
+
+  .nav_links {
+    font-size: 0.5em;
+  }
+  
+  
+  .home {
+    padding: 0.125em 0.25em;
+  }
+  
+  .house {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .location {
+    font-size: 1em;
+  }
+  
+  .social {
+    display: flex;
+    position: absolute;
+    padding: 1em 2em;
+    gap: 1em;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .icon {
+    color:#000;
+  }
+  
+  .icon:hover {
+    color:#fed985;
+  }
+  
+  .copyright {
+    padding: 0.5em;
+    font-size: 1em;
+    text-shadow: 0.25em 0.25em 0.5em #000;
+  }
 }
