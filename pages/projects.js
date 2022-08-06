@@ -123,6 +123,23 @@ export default class SimpleSlider extends Component {
               </div>
             </div>
 
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project5.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
+                  <h2>jeyefendi.com 1.0</h2>
+                  <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                  <p>The initial view of this site.</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/jeyefendi_1.0/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/jeyefendi_1.0">Code</a>
+                </div>   
+              </div>
+            </div>
+
           </Slider>
         </div>
       </>

@@ -9,8 +9,8 @@
 
 .avatar {
   position: relative;
-  width: 8.5em;
-  height: 31em;
+  width: 11.25em;
+  height: 30em;
 }
 
 .hero_text {
@@ -29,8 +29,8 @@
   justify-content: center;
   position: relative;
   margin-bottom: 2em;
-  width: 275px;
-  height: 180px;
+  width: 15em;
+  height: 10em;
 }
 
 .quote {
@@ -52,34 +52,28 @@
 .avatar {
   position: relative;
   margin: 0 auto;
-  margin-top: 9em;
-  width: 6.375em;
-  height: 23.25em;
+  width: 9em;
+  height: 24em;
 }
 
 .hero_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0;
   width: 72vw;
+  margin-top: 0;
   height: fit-content;
   text-align: center;
   color: #fff;
 }
 
 .name {
-  position: absolute;
-  top: 5em;
-  margin-bottom: 2em;
-  width: 11.45em;
-  height: 7.5em;
+  position: relative;
+  margin-bottom: 1em;
+  width: 15em;
+  height: 10em;
 }
 
 .quote {
   margin: 0.2em auto;
-  max-width: 60%;
+  max-width: 80%;
   font-size: 1.5em;
   text-shadow: 0.1em 0.05em rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
