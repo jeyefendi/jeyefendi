@@ -1,56 +1,61 @@
 .knuckle {
-    width: 3em;
+  width: 3em;
 }
 
 .skills {
-    display: flex;
+  display: flex;
 }
 
 .skills_menu {
-    padding-top: 12em;
-      position: relative;
-      display: flex;
-      justify-content: center;
+  padding-top: 12em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills_item {
+    cursor: pointer;
+    position: relative;
+    width: 12.75em;
+    height: 12.75em;
 }
 
 .toggle {
-    cursor: pointer;
-    position: absolute;
+  cursor: pointer;
+  position: relative;
+  width: 12.75em;
+  height: 12.75em;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    width: 12.5em;
-    height: 12.5em;
-    transform: scale(0);
-    transition: 0.7s;
-    z-index: -1;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.7s;
+  z-index: -1;
 }
 
-.menu a{
-    display: block;
-    position: absolute;
-    transition: 0.4s;
+.menu a {
+  display: block;
+  position: absolute;
+  transition: 0.4s;
 }
 
-
-.menu a:nth-child(1){
-    top: 0.4em;
+.menu a:nth-child(1) {
+  top: 0.4em;
 }
 
-.menu a:nth-child(2){
-    top: 2em;
-    left: 8.2em;
+.menu a:nth-child(2) {
+  top: 2em;
+  left: 8.2em;
 }
 
-.menu a:nth-child(3){
-    top: 7em;
+.menu a:nth-child(3) {
+  top: 7em;
 }
 
-.menu a:nth-child(4){
-    top: 2em;
-    left: 1.6em;
+.menu a:nth-child(4) {
+  top: 2em;
+  left: 1.6em;
 }
-

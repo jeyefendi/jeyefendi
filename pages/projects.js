@@ -8,7 +8,10 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      className: "center",
+      centerMode: true,
       infinite: true,
+      centerPadding: "-2em",
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
@@ -41,6 +44,7 @@ export default class SimpleSlider extends Component {
         },
       ],
     };
+    
     return (
       <>
         <Head>
