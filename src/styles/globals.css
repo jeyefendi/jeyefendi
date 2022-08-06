@@ -134,6 +134,14 @@ section {
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
 
+  nav {
+    gap: 0.5em;
+  }
+  
+  nav a {
+    font-size: 0.75em;
+  }
+  
   .hero {
     display: grid;
     position: relative;
