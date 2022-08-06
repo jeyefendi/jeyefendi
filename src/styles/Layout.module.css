@@ -6,21 +6,6 @@
 }
 
 
-.nav_links {
-  background: none;
-  border: none;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-}
-
-.nav_links:hover {
-  color: #fed985;
-  transform: scale(1.2);
-  transition: 0.3s;
-}
-
 .home {
   padding: 0.5em 1em;
   display: grid;

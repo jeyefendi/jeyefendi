@@ -1,9 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router'
 import Image from "next/image";
 import styles from "../src/styles/Layout.module.css";
 
 const Header = () => {
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
   return (
     <header>
       <div className={styles.logo}>
@@ -16,13 +20,13 @@ const Header = () => {
 
       <nav>
         <Link href="/about">
-          <a className={styles.nav_links}>About</a>
+          <a className={currentRoute === "/about" ? "active" : "non-active"}>About</a>
         </Link>
         <Link href="/stack">
-          <a className={styles.nav_links}>Stack</a>
+          <a className={currentRoute === "/stack" ? "active" : "non-active"}>Stack</a>
         </Link>
         <Link href="/projects">
-          <a className={styles.nav_links}>Projects</a>
+          <a className={currentRoute === "/projects" ? "active" : "non-active"}>Projects</a>
         </Link>
       </nav>
 

@@ -59,6 +59,29 @@ nav {
   margin: auto auto;
 }
 
+nav a {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #fed985;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.non-active {
+  color: white;
+}
+
+.active {
+  color: #fed985;
+}
+
 main {
   display: flex;
   width: 100vw;

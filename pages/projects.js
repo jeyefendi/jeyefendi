@@ -11,7 +11,7 @@ export default class SimpleSlider extends Component {
       className: "center",
       centerMode: true,
       infinite: true,
-      centerPadding: "-2em",
+      centerPadding: "-1em",
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
