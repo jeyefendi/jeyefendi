@@ -52,12 +52,12 @@
 .avatar {
   position: relative;
   margin: 0 auto;
-  width: 9em;
-  height: 24em;
+  width: 7.5em;
+  height: 20em;
 }
 
 .hero_text {
-  width: 72vw;
+  width: 60vw;
   margin-top: 0;
   height: fit-content;
   text-align: center;
@@ -67,8 +67,8 @@
 .name {
   position: relative;
   margin-bottom: 1em;
-  width: 15em;
-  height: 10em;
+  width: 12em;
+  height: 8em;
 }
 
 .quote {

@@ -28,17 +28,13 @@ export default function Home() {
           <Image alt="" src="/name.webp" layout="fill"/>
         </div>
         <p className={styles.quote}>
-          Just a man in a white coat.
+          Just a man in a white coat. Take that off, what are you?
         </p>
-        <p className={styles.quote}>
-          Take that off, what are you?
-        </p>
+        
         <h1 className={styles.quote}>
-          Web Developer. Freelancer.
+          Web Developer. Freelancer. JavaScript Coder. Dreamer.
         </h1>
-        <h1 className={styles.quote}>
-          JavaScript Coder. Dreamer.
-        </h1>
+        
       </div>
     </section>
     </>
