@@ -129,7 +129,7 @@ export default class SimpleSlider extends Component {
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
-                  <h2>jeyefendi.com 1.0</h2>
+                  <h2>jeyefendi.com v1.0</h2>
                   <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
                   <p>The initial view of this site.</p>
                 </div>

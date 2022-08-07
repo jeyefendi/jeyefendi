@@ -35,7 +35,7 @@
 }
 
 .project_title {
-  min-height: 100px;
+  min-height: 8em;
   letter-spacing: 0.1vw;
 }
 
@@ -63,7 +63,7 @@
 
 .project_links {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .project_links a {

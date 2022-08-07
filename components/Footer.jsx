@@ -15,9 +15,6 @@ const Footer = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi"><ImGithub size='2em'/></a> 
         </div>
         <div className={styles.icon}>
-        <a target="_blank" rel="noopener noreferrer" href="https://tlgg.ru/jeyefendi"><SiTelegram size='2em' /></a>
-        </div>
-        <div className={styles.icon}>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeyefendi/"><ImLinkedin size='2em' /></a>
         </div>
         <div className={styles.icon}>
