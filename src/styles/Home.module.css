@@ -44,7 +44,7 @@
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .hero {
-    padding-top: 7em;
+    padding-top: 5em;
     gap: 0.5em;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .hero_text {
-  width: 60vw;
+  width: 12em;
   margin-top: 1em;
   height: fit-content;
   text-align: center;
@@ -73,7 +73,7 @@
 .quote {
   margin: 0.2em auto;
   max-width: 80%;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-shadow: 0.1em 0.05em rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.25em 0.25em;
