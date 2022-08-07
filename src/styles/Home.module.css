@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
     padding-top: 7em;
     gap: 2em;
 }
@@ -65,17 +64,12 @@
 
 .name {
   position: relative;
-  margin-bottom: 1em;
   width: 12em;
   height: 8em;
 }
 
 .quote {
-  margin: 0.2em auto;
-  max-width: 80%;
+  max-width: 85%;
   font-size: 1.25em;
-  text-shadow: 0.1em 0.05em rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 0.25em 0.25em;
 }
 }

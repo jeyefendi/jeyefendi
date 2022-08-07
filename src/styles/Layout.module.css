@@ -81,7 +81,7 @@
   .social {
     display: flex;
     justify-content: flex-end;
-    padding: 1em 1em;
+    padding: 0.5em;
     gap: 1em;
     right: 0;
     bottom: 2em;
