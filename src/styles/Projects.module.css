@@ -1,5 +1,5 @@
 .portfolio {
-  padding-top: 4em;
+  padding-top: 7em;
   margin: 0 auto;
   max-width: 80vw;
 }
@@ -100,4 +100,10 @@
 
 .project_preview:hover .visit {
   opacity: 1;
+}
+
+@media all and (orientation: portrait), all and (max-width: 1000px) {
+  .portfolio {
+    padding-top: 5em;
+  }
 }
