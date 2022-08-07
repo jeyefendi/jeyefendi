@@ -43,7 +43,7 @@
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .hero {
-    padding-top: 5em;
+    padding-top: 10em;
     gap: 0.5em;
 }
 
