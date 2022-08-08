@@ -32,7 +32,7 @@ export default function Home() {
         </p>
         
         <h1 className={styles.quote}>
-          Web Developer. Freelancer. JavaScript Coder. Dreamer.
+          Web Developer. Self-Made. JavaScript Coder. Dreamer.
         </h1>
         
       </div>
