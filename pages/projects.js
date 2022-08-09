@@ -71,10 +71,27 @@ export default class SimpleSlider extends Component {
                 </div>   
               </div>
             </div>
-            
+
             <div className={styles.project}>
               <div className={styles.project_preview}>
                 <Image alt="" src="/projects/project2.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
+                <h2>Anime Quote Generator</h2>
+                <span>React.js</span> <span>SCSS</span> <span>API</span> <span>Axios</span>
+                <p>Powered by React.js with using Axios and Animechan API</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://quote-anime.netlify.app/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/anime-quote">Code</a>
+                </div>   
+              </div>
+            </div>
+            
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project3.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -91,7 +108,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project3.webp" layout="fill" />
+                <Image alt="" src="/projects/project4.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -108,7 +125,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project4.webp" layout="fill" />
+                <Image alt="" src="/projects/project5.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -125,7 +142,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project5.webp" layout="fill" />
+                <Image alt="" src="/projects/project6.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
