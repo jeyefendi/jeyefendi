@@ -1,18 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../src/styles/Stack.module.css";
+import styles from "../src/styles/Contact.module.css";
 
-export default function stack() {
+export default function contact() {
   return (
     <>
       <Head>
-        <title>STACK</title>
+        <title>CONTACT</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="JavaScript, React, Next.js, Web Developer, Frontend, Front-End" />
       </Head>
 
-      <section className={styles.stack}>
-
+      <section className={styles.contact}>
+        
       </section>
     </>
   );

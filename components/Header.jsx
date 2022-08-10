@@ -20,13 +20,13 @@ const Header = () => {
 
       <nav>
         <Link href="/about">
-          <a className={currentRoute === "/about" ? "active" : "non-active"}>About</a>
-        </Link>
-        <Link href="/stack">
-          <a className={currentRoute === "/stack" ? "active" : "non-active"}>Stack</a>
+          <a className={currentRoute === "/about" ? "active" : "non-active"}>about</a>
         </Link>
         <Link href="/projects">
-          <a className={currentRoute === "/projects" ? "active" : "non-active"}>Projects</a>
+          <a className={currentRoute === "/projects" ? "active" : "non-active"}>projects</a>
+        </Link>
+        <Link href="/contact">
+          <a className={currentRoute === "/contact" ? "active" : "non-active"}>contact</a>
         </Link>
       </nav>
 
