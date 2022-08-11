@@ -30,12 +30,13 @@
 
 .fl {
   display: flex;
-  padding: 0.1em 0.4em;
+  padding: 0.1em 0.3em;
   font-size: 0.75em;
   background: black;
   color: #faf5ec;
-  border-radius: 0.1em;
+  border-radius: 0.25em;
 }
+
 
 .fl:hover {
   background: #fed985;
