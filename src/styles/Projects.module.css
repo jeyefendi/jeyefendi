@@ -12,6 +12,12 @@
   width: 20em;
   height: 500px;
   box-sizing: border-box;
+  transform: scale(0.9);
+}
+
+.project:hover {
+  transform: scale(1);
+  transition: 0.4s;
 }
 
 .project_preview {

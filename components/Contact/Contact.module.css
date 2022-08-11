@@ -1,42 +1,42 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 .contact h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .contact_icons {
-    display: flex;
-    gap: 1em;
-    font-size: 4em;
+  display: flex;
+  gap: 1em;
+  font-size: 2.5em;
 }
 
 .contact_icons a {
-    width: max-content;
+  width: max-content;
 }
 
 .contact_icons a:hover {
-    color: #fed985;
-    transform: scale(1.25);
-    transition: 0.4s;
+  color: #fed985;
+  transform: scale(1.25);
+  transition: 0.4s;
 }
 
 .fl {
-    display: flex;
-    padding: 0.1em 0.4em;
-    font-size: 0.75em;
-    background: black;
-    color: #faf5ec;
-    border-radius: 0.1em;
+  display: flex;
+  padding: 0.1em 0.4em;
+  font-size: 0.75em;
+  background: black;
+  color: #faf5ec;
+  border-radius: 0.1em;
 }
 
 .fl:hover {
-    background: #fed985;
+  background: #fed985;
 }
