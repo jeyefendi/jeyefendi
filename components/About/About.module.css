@@ -5,20 +5,32 @@
     padding-top: 7em;
 }
 
-.circular_menu {
-    width: fit-content;
-    margin-top: 4em;
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
 }
 
-.toggle {
-    background: none;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
+.resume_text {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: white;
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
 }
 
-.knuckle {
+.resume_icons {
+    display: flex;
+    gap: 1em;
+}
+
+.language {
     position: relative;
-    width: 10em;
-    height: 10em;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.language:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
 }
