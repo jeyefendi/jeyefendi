@@ -3,14 +3,15 @@
 **JavaScript**
 >ES6+<br>
 >React.js<br>
+>Next.js<br>
 >Typescript<br>
 
 **HTML | CSS**
 >SASS / SCSS<br>
 >Flexbox / Grid<br>
->Bootstrap5 / Tailwind
+>Bootstrap / Tailwind
 
 **Other**
 >Wordpress<br>
 >PHP / Node.js<br>
->Figma / Adobe PS
+>Figma / Adobe Ps
