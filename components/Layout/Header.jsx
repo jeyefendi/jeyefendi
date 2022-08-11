@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/router'
 import Image from "next/image";
-import styles from "../src/styles/Layout.module.css";
+import styles from "./Layout.module.css";
+import Modal from "../Modal/Modal";
+import Contact from "../Contact/Contact";
 
 const Header = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
+  const [modalActive, setModalActive] = useState(true);
 
   return (
+    <>
     <header>
       <div className={styles.logo}>
         <Link href="/">
@@ -25,9 +29,7 @@ const Header = () => {
         <Link href="/projects">
           <a className={currentRoute === "/projects" ? "active" : "non-active"}>projects</a>
         </Link>
-        <Link href="/contact">
-          <a className={currentRoute === "/contact" ? "active" : "non-active"}>contact</a>
-        </Link>
+          <button className={styles.contact_button} onClick={() =>setModalActive(true)} >contact</button>
       </nav>
 
       <div className={styles.home}>
@@ -37,6 +39,10 @@ const Header = () => {
         <address className={styles.location}>MOSCOW</address>
       </div>
     </header>
+    <Modal active={modalActive} setActive={setModalActive}>
+      <Contact/>
+    </Modal>
+    </>
   );
 };
 

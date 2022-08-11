@@ -131,6 +131,40 @@ section {
   color: #fff !important;
 }
 
+.modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  z-index: +1;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal_content {
+  padding: 1em;
+  border-radius: 0.75em;
+  background-color: #fff;
+  width: 35vw;
+  box-shadow: 0.5em 0.5em 0.5em #000;
+  transform: scale(0.5);
+  transition: 0.4s all;
+}
+
+.modal_content.active {
+  transform: scale(1);
+}
+
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
 

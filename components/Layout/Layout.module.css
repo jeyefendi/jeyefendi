@@ -5,6 +5,23 @@
   height: 4em;
 }
 
+.contact_button {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-family: "GrandTheftAuto";
+  font-size: 1em;
+}
+
+.contact_button:hover {
+  color: #fed985;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
 
 .home {
   padding: 0.5em 1em;
@@ -76,6 +93,10 @@
   
   .location {
     font-size: 0.5em;
+  }
+
+  .open_btn {
+    font-size: 0.625em;
   }
   
   .social {

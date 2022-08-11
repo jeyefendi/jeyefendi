@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../src/styles/Layout.module.css";
+import styles from "./Layout.module.css";
 import { ImGithub } from "react-icons/im";
 import { ImLinkedin } from "react-icons/im";
 import { ImFacebook2 } from "react-icons/im";
