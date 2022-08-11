@@ -70,8 +70,8 @@ nav a {
 
 nav a:hover {
   color: #fed985;
-  transform: scale(1.2);
-  transition: 0.3s;
+  transform: scale(1.25);
+  transition: 0.4s;
 }
 
 .non-active {
@@ -92,6 +92,16 @@ section {
   justify-content: center;
   padding: 2em;
   width: 100vw;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 0.5em;
+  bottom: 0;
 }
 
 .error_404 {
@@ -132,7 +142,7 @@ section {
 }
 
 .modal {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -154,7 +164,7 @@ section {
 .modal_content {
   padding: 1em;
   border-radius: 0.75em;
-  background-color: #fff;
+  background-color: #faf5ec;
   width: 35vw;
   box-shadow: 0.5em 0.5em 0.5em #000;
   transform: scale(0.5);

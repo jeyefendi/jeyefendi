@@ -9,7 +9,7 @@ import Contact from "../Contact/Contact";
 const Header = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
-  const [modalActive, setModalActive] = useState(true);
+  const [modalActive, setModalActive] = useState(false);
 
   return (
     <>
