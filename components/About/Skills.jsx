@@ -27,11 +27,11 @@ const Skills = () => {
             <span>GraphQL</span>
           </div>
           <p>
-            Now I'm fully focused on Web Development. Frontend Developer who
+            Now I am fully focused on Web Development. Frontend Developer who
             likes to create responsive web applications, always focusing on an
             exceptional user experience. I like to work individually as well as
             in teams and greatly appreciate being able to bring my ideas to the
-            table when it comes to building a fluid frontend powered by React.
+            table.
           </p>
         </div>
       </div>
