@@ -1,11 +1,12 @@
-import Image from "next/image";
 import styles from "./About.module.css";
+import Skills from "./Skills";
 import Resume from "./Resume";
 
 const AboutPage = () => {    
   return (
     <section className={styles.about}>
-        <Resume/>
+      <Skills/>
+      <Resume/>
     </section>
   );
 };

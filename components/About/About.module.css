@@ -1,52 +1,158 @@
 .about {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    padding-top: 7em;
+  display: grid;
+  width: 100vw;
+  padding-top: 7em;
+  gap: 2em;
 }
 
-.resume {
+.skills {
+    display: grid;
+    gap: 2em;
+}
+
+.skills h1 {
+  font-size: 3em;
+  color: white;
+  text-shadow: 0.05em 0.05em rgb(0, 0, 0);
+}
+
+.skills_card {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 4em;
 }
 
+.skills_photo {
+    position: relative;
+    width: 20em;
+    height: 20em;
+}
+
+.skills_photo img {
+    border-radius: 1em;
+}
+
+.skills_text {
+  max-width: 18em;
+  color: white;
+  font-size: 1.5em;
+}
+
+.skills_stack {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1em;
+  gap: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.skills_stack span {
+  padding: 0.1em;
+  background: #000;
+  font-weight: 400;
+  border-radius: 0.25em;
+}
+
+.skills_text p {
+  color: black;
+  background: white;
+  border-radius: 0.25em;
+  padding: 0.25em;
+  text-align: justify;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
 .resume_text {
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    color: white;
-    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: white;
+  text-shadow: 0.05em 0.05em rgb(0, 0, 0);
 }
 
 .resume_icons {
-    display: flex;
-    gap: 1em;
+  display: flex;
+  gap: 1em;
 }
 
 .language {
-    position: relative;
-    width: 3.5em;
-    height: 3.5em;
+  position: relative;
+  width: 3.5em;
+  height: 3.5em;
 }
 
 .language:hover {
-    transform: scale(1.25);
-    transition: 0.5s;
+  transform: scale(1.25);
+  transition: 0.5s;
 }
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
-    .resume {
-        gap: 2em;
-    }
-    
-    .resume_text {
-        font-size: 1.25em;
-        letter-spacing: 0.05em;
-    }    
+  .about {
+    padding-top: 5em;
+    gap: 1em;
+  }
+  
+  .skills {
+      gap: 1em;
+  }
+  
+  .skills h1 {
+    font-size: 1.5em;
+  }
+  
+  .skills_card {
+      gap: 1em;
+  }
+  
+  .skills_photo {
+      width: 10em;
+      height: 10em;
+  }
+  
+  
+  .skills_text {
+    max-width: 16em;
+    color: white;
+    font-size: 0.5em;
+  }
+  
+  .skills_stack {
+    padding-top: 0.5em;
+    gap: 0.25em;
+    margin-bottom: 1em;
+  }
+  
+  .skills_stack span {
+    padding: 0.1em;
+    background: #000;
+    font-weight: 400;
+    border-radius: 0.25em;
+  }
+  
+  .skills_text p {
+    color: black;
+    background: white;
+    border-radius: 0.25em;
+    padding: 0.25em;
+    text-align: justify;
+  }
 
-    .language {
-        width: 2.5em;
-        height: 2.5em;
-    }
+  .resume {
+    gap: 2em;
+  }
+
+  .resume_text {
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+  }
+
+  .language {
+    width: 2.5em;
+    height: 2.5em;
+  }
 }
