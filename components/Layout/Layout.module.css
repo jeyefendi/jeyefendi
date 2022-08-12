@@ -92,8 +92,6 @@
   }
   
   .social_icons {
-    display: flex;
-    justify-content: flex-end;
     padding: 0.1em;
     gap: 1em;
     color:#fff;

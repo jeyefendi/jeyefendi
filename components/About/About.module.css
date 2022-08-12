@@ -34,3 +34,19 @@
     transform: scale(1.25);
     transition: 0.5s;
 }
+
+@media all and (orientation: portrait), all and (max-width: 1000px) {
+    .resume {
+        gap: 2em;
+    }
+    
+    .resume_text {
+        font-size: 1.25em;
+        letter-spacing: 0.05em;
+    }    
+
+    .language {
+        width: 2.5em;
+        height: 2.5em;
+    }
+}

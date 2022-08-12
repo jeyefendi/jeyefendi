@@ -1,7 +1,6 @@
 import React from "react";
 import Head from 'next/head'
-import Image from "next/image";
-import styles from "../src/styles/Home.module.css";
+import HomePage from "../components/Home/Home";
 
 export default function Home() {
   return (
@@ -17,26 +16,9 @@ export default function Home() {
         <meta content='yes' name='apple-mobile-web-app-capable'/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
+      <HomePage/>
 
-      <section className={styles.hero}>
-      <div className={styles.avatar}>
-        <Image alt="" src="/avatar.webp" layout="fill"/>
-      </div>
-
-      <div className={styles.hero_text}>
-        <div className={styles.name}>
-          <Image alt="" src="/name.webp" layout="fill"/>
-        </div>
-        <p className={styles.quote}>
-          Just a man in a white coat. Take that off, what are you?
-        </p>
-        
-        <h1 className={styles.quote}>
-          Web Dev. Self-Made. JavaScript Coder. Dreamer.
-        </h1>
-        
-      </div>
-    </section>
     </>
   )
 }
