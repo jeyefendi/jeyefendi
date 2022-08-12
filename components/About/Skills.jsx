@@ -25,13 +25,9 @@ const Skills = () => {
             <span>Gatsby</span>
             <span>MongoDB</span>
             <span>GraphQL</span>
+            <span>MERN</span>
           </div>
-          <p>
-            Now I am fully focused on Web Development. Frontend Developer who
-            likes to create responsive web applications, always focusing on an
-            exceptional user experience. I like to work individually as well as
-            in teams and greatly appreciate being able to bring my ideas to the
-            table.
+          <p>Now I&nbsp;am fully focused on&nbsp;Web Development. Frontend Developer who likes to&nbsp;create responsive web applications, always focusing on&nbsp;an&nbsp;exceptional user experience. I&nbsp;like to&nbsp;work individually as&nbsp;well as&nbsp;in&nbsp;teams and greatly appreciate being able to&nbsp;bring my&nbsp;ideas to&nbsp;the table.
           </p>
         </div>
       </div>
