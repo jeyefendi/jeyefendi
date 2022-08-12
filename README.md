@@ -8,10 +8,12 @@
 
 **HTML | CSS**
 >SASS / SCSS<br>
+>Module.CSS / LESS<br>
 >Flexbox / Grid<br>
 >Bootstrap / Tailwind
 
 **Other**
+>RestAPI / Axios
 >Wordpress<br>
 >PHP / Node.js<br>
 >Figma / Adobe Ps
