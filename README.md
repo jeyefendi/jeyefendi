@@ -10,7 +10,8 @@
 >SASS / SCSS<br>
 >Module.CSS / LESS<br>
 >Flexbox / Grid<br>
->Bootstrap / Tailwind
+>Bootstrap / Tailwind<br>
+>BEM
 
 **Other**
 >RestAPI / Axios
