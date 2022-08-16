@@ -91,20 +91,6 @@
   color: #fed985;
 }
 
-
-
-.visit {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.3s ease;
-}
-
 .project_preview:hover .visit {
   opacity: 1;
 }

@@ -10,7 +10,7 @@
   position: relative;
   width: 18em;
   height: 18em;
-  border: 5px inset rgb(50, 50, 50);
+  border: 5px solid black;
   border-radius: 1em;
 }
 
@@ -51,7 +51,7 @@
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .hero {
     display: grid;
-    padding-top: 7em;
+    padding-top: 5em;
     gap: 0.5em;
 }
 
