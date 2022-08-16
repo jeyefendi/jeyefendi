@@ -8,7 +8,7 @@ const Skills = () => {
 
       <div className={styles.skills_card}>
         <div className={styles.skills_photo}>
-          <Image alt="" src="/photo.png" layout="fill" />
+          <Image alt="" src="/about/photo.webp" layout="fill" />
         </div>
 
         <div className={styles.skills_text}>
