@@ -2,14 +2,20 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    padding-top: 7em;
+    padding-top: 9em;
     gap: 2em;
 }
 
 .avatar {
   position: relative;
-  width: 9em;
-  height: 24em;
+  width: 18em;
+  height: 18em;
+  border: 5px inset rgb(50, 50, 50);
+  border-radius: 1em;
+}
+
+.avatar img {
+  border-radius: 1em;
 }
 
 .hero_text {
@@ -17,59 +23,58 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1em;
-  width: 16vw;
-  height: fit-content;
   text-align: center;
+  margin-top: 0.75em;
+  width: 14em;
+  height: fit-content;
   color: #fff;
+  text-shadow: 0.1em 0.05em rgb(0, 0, 0);
 }
 
 .name {
   justify-content: center;
   position: relative;
-  margin-bottom: 2em;
-  width: 15em;
-  height: 10em;
-}
-
-.quote {
-  margin: 0.1em auto;
-  max-width: 100%;
-  font-size: 2em;
-  text-shadow: 0.1em 0.05em rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 0.25em 0.25em;
-}
-
-@media all and (orientation: portrait), all and (max-width: 1000px) {
-  .hero {
-    padding-top: 10em;
-    gap: 0.5em;
-}
-
-.avatar {
-  position: relative;
-  margin: 0 auto;
-  width: 7.5em;
-  height: 20em;
-}
-
-.hero_text {
-  width: 12em;
-  margin-top: 1em;
-  height: fit-content;
-  text-align: center;
-  color: #fff;
-}
-
-.name {
-  position: relative;
+  margin-bottom: 1em;
   width: 12em;
   height: 8em;
 }
 
-.quote {
-  max-width: 85%;
-  font-size: 1.25em;
+.question, .answer {
+  font-size: 1.75em;
 }
+
+.answer span {
+  letter-spacing: 0.1em;
+}
+
+
+@media all and (orientation: portrait), all and (max-width: 1000px) {
+  .hero {
+    display: grid;
+    padding-top: 7em;
+    gap: 0.5em;
+}
+
+.avatar {
+  width: 15em;
+  height: 15em;
+  margin: 0 auto;
+}
+
+.hero_text {
+  margin: 0 auto;
+  width: 16em;
+  height: fit-content;
+}
+
+.name {
+  width: 12em;
+  height: 8em;
+}
+
+.question, .answer {
+  width: 80%;
+  font-size: 1.5em;
+}
+
 }

@@ -12,12 +12,12 @@ const HomePage = () => {
       <div className={styles.name}>
         <Image alt="" src="/name.webp" layout="fill"/>
       </div>
-      <p className={styles.quote}>
+      <p className={styles.question}>
         Just a man in a white coat. Take that off, what are you?
       </p>
       
-      <h1 className={styles.quote}>
-        Web Dev. Self-Made. JavaScript Coder. Dreamer.
+      <h1 className={styles.answer}>
+        <span>Web Dev. Self-Made.</span> Front-End Coder. Dreamer.
       </h1>
       
     </div>
