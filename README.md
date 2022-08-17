@@ -3,6 +3,7 @@
 **JavaScript**
 >ES6+<br>
 >React.js<br>
+>Redux Toolkit<br>
 >Next.js<br>
 >Typescript<br>
 
