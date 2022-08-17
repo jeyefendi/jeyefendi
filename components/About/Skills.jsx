@@ -27,7 +27,16 @@ const Skills = () => {
             <span>GraphQL</span>
             <span>MERN</span>
           </div>
-          <p>Now I&nbsp;am fully focused on&nbsp;Web Development. Frontend Developer who likes to&nbsp;create responsive web applications, always focusing on&nbsp;an&nbsp;exceptional user experience. I&nbsp;like to&nbsp;work individually as&nbsp;well as&nbsp;in&nbsp;teams and greatly appreciate being able to&nbsp;bring my&nbsp;ideas to&nbsp;the table.
+
+          <p>
+            Yes, I&nbsp;am a&nbsp;Doctor by&nbsp;education. And I&rsquo;m
+            incredibly proud of&nbsp;It. But the heart has a&nbsp;will
+            of&nbsp;its own. It&nbsp;led me&nbsp;into Development. <br></br>Now
+            I&nbsp;am going step by&nbsp;step towards my&nbsp;goal&nbsp;&mdash;
+            to&nbsp;become an&nbsp;outstanding developer and create my&nbsp;own
+            product. I&nbsp;have a&nbsp;sea of&nbsp;skills and an&nbsp;ocean
+            of&nbsp;ambitions in&nbsp;my&nbsp;arsenal. <br></br>Ah&nbsp;sh*t!
+            Here we&nbsp;go!
           </p>
         </div>
       </div>
