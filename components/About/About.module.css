@@ -113,18 +113,18 @@
   }
 
   .skills_text {
-    max-width: 16em;
+    max-width: 18em;
   }
 
   .skills_stack {
     justify-content: center;
     margin: 0 auto;
     gap: 0.25em;
-    font-size: 1em;
+    font-size: 0.875em;
   }
 
   .skills_text p {
-    font-size: 1em;
+    font-size: 1.125em;
   }
 
   .resume {
@@ -132,7 +132,7 @@
   }
 
   .resume_text {
-    font-size: 1.25em;
+    font-size: 1em;
     letter-spacing: 0.05em;
   }
 
