@@ -11,7 +11,7 @@ import {SiFreelancer} from "react-icons/si";
 
 const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <div className={styles.contact}>
       <h1>GET IN TOUCH</h1>
       <div className={styles.contact_icons}>
         <a target="_blank" rel="noopener noreferrer" href="https://tlgg.ru/jeyefendi"><FaTelegram/></a>
@@ -24,7 +24,7 @@ const Contact = () => {
         <a target="_blank" rel="noopener noreferrer" href="https://www.freelancer.com.ru/u/jeyefendi"><SiFreelancer/></a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.fl.ru/users/jeyhunfarajov/portfolio/"><span className={styles.fl}>F L</span></a>
       </div>
-    </section>
+    </div>
   )
 }
 
