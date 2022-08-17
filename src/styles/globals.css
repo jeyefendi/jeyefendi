@@ -179,6 +179,10 @@ footer {
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
 
+  body {
+    background-image: url(/bgm.webp);
+  }
+
   nav {
     gap: 0.5em;
   }
