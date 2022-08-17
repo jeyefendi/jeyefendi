@@ -36,10 +36,10 @@
 
 .skills_text {
   display: grid;
+  margin: auto 0;
   gap: 1em;
-  max-width: 18em;
+  max-width: 26em;
   text-align: justify;
-  font-size: 1.5em;
   color: white;
 }
 
@@ -47,6 +47,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
+  font-size: 1.25em;
 }
 
 .skills_stack span {
@@ -58,7 +59,8 @@
 .skills_text p {
   color: white;
   border-radius: 0.25em;
-  padding: 0.25em;
+  font-size: 1.5em;
+  text-shadow: 0.05em 0.05em rgb(0, 0, 0);
 }
 
 .resume {
@@ -101,46 +103,38 @@
       gap: 1em;
   }
   
-  .skills h1 {
-    font-size: 1.5em;
-  }
+.skills h1 {
+  font-size: 1.5em;
+}
+
+
   
-  .skills_card {
-      gap: 1em;
-  }
+.skills_card {
+  display: grid;
+  gap: 0.5em;
+}
+
   
-  .skills_photo {
-      width: 10em;
-      height: 10em;
-  }
-  
-  
-  .skills_text {
-    max-width: 12em;
-    color: white;
-    font-size: 0.5em;
-  }
-  
-  .skills_stack {
-    padding-top: 0.5em;
-    gap: 0.25em;
-    margin-bottom: 1em;
-  }
-  
-  .skills_stack span {
-    padding: 0.1em;
-    background: #000;
-    font-weight: 400;
-    border-radius: 0.25em;
-  }
-  
-  .skills_text p {
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 0.25em;
-    padding: 0.25em;
-    text-align: justify;
-  }
+.skills_photo {
+  width: 14em;
+  height: 14em;
+  margin: 0 auto;
+}
+
+
+.skills_text {
+  max-width: 16em;
+  font-size: 1em;
+}
+
+.skills_stack {
+  gap: 0.25em;
+  justify-content: center;
+}
+
+.skills_text p {
+}  
+
 
   .resume {
     gap: 2em;
