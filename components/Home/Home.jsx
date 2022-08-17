@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <section className={styles.hero}>
     <div className={styles.avatar}>
-      <Image alt="" src="/avatar.png" layout="fill"/>
+      <Image alt="" src="/avatar.webp" layout="fill"/>
     </div>
 
     <div className={styles.hero_text}>
