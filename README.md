@@ -1,10 +1,10 @@
 # [![Logo](./jeyefendi.png)](https://jeyefendi.com)<br>jeyefendi.com
 ## S T A C K :
 **JavaScript**
->ES6+<br>
 >React.js<br>
->Redux Toolkit<br>
 >Next.js<br>
+>ES6+<br>
+>Redux Toolkit<br>
 >Typescript<br>
 
 **HTML | CSS**
