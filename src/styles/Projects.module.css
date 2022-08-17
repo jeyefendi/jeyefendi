@@ -1,7 +1,7 @@
 .portfolio {
-  padding-top: 7em;
   margin: 0 auto;
   max-width: 80vw;
+  padding-top: 7em;
 }
 
 .project {
@@ -97,6 +97,6 @@
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .portfolio {
-    padding-top: 5em;
+    padding-top: 3em;
   }
 }

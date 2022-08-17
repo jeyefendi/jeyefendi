@@ -1,13 +1,12 @@
 .about {
   display: grid;
   width: 100vw;
-  padding-top: 7em;
   gap: 2em;
 }
 
 .skills {
-    display: grid;
-    gap: 2em;
+  display: grid;
+  gap: 2em;
 }
 
 .skills h1 {
@@ -17,18 +16,18 @@
 }
 
 .skills_card {
-    display: flex;
-    justify-content: center;
-    gap: 4em;
+  display: flex;
+  justify-content: center;
+  gap: 4em;
 }
 
 .skills_photo {
-    position: relative;
-    width: 16em;
-    height: 16em;
-    border: 4px solid black;
-    border-radius: 1em;
-} 
+  position: relative;
+  width: 16em;
+  height: 16em;
+  border: 4px solid black;
+  border-radius: 1em;
+}
 
 .skills_photo img {
   border-radius: 1em;
@@ -95,46 +94,38 @@
 
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .about {
-    padding-top: 5em;
     gap: 1em;
   }
-  
+
   .skills {
-      gap: 1em;
+    gap: 1em;
   }
-  
-.skills h1 {
-  font-size: 1.5em;
-}
 
+  .skills_card {
+    display: grid;
+    gap: 0.5em;
+  }
 
-  
-.skills_card {
-  display: grid;
-  gap: 0.5em;
-}
+  .skills_photo {
+    width: 14em;
+    height: 14em;
+    margin: 0 auto;
+  }
 
-  
-.skills_photo {
-  width: 14em;
-  height: 14em;
-  margin: 0 auto;
-}
+  .skills_text {
+    max-width: 16em;
+  }
 
+  .skills_stack {
+    justify-content: center;
+    margin: 0 auto;
+    gap: 0.25em;
+    font-size: 1em;
+  }
 
-.skills_text {
-  max-width: 16em;
-  font-size: 1em;
-}
-
-.skills_stack {
-  gap: 0.25em;
-  justify-content: center;
-}
-
-.skills_text p {
-}  
-
+  .skills_text p {
+    font-size: 1em;
+  }
 
   .resume {
     gap: 2em;

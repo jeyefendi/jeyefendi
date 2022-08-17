@@ -35,7 +35,7 @@ const Skills = () => {
             I&nbsp;am going step by&nbsp;step towards my&nbsp;goal&nbsp;&mdash;
             to&nbsp;become an&nbsp;outstanding developer and create my&nbsp;own
             product.<br></br>I&nbsp;have a&nbsp;sea of&nbsp;skills and an&nbsp;ocean
-            of&nbsp;ambitions in&nbsp;my&nbsp;arsenal.<br></br>Ah&nbsp;sh*t!
+            of&nbsp;ambitions.<br></br>Ah&nbsp;sh*t!
             Here we&nbsp;go!
           </p>
         </div>

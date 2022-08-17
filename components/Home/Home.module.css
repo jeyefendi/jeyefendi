@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    padding-top: 9em;
     gap: 2em;
 }
 
@@ -52,7 +51,6 @@
 @media all and (orientation: portrait), all and (max-width: 1000px) {
   .hero {
     display: grid;
-    padding-top: 5em;
     gap: 0.5em;
 }
 

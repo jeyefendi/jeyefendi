@@ -43,9 +43,9 @@ header {
   display: flex;
   position: absolute;
   justify-content: space-between;
+  background: rgba(0, 0, 0, 0.7);
   width: 100%;
   z-index: +1;
-  background: rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -90,8 +90,9 @@ main {
 section {
   display: flex;
   justify-content: center;
-  padding: 2em;
   width: 100vw;
+  padding: 2em;
+  padding-top: 9em;
 }
 
 footer {
@@ -184,6 +185,10 @@ footer {
   
   nav a {
     font-size: 0.625em;
+  }
+
+  section {
+    padding-top: 5em;
   }
 
   footer {
