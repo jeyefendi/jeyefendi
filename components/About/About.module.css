@@ -31,6 +31,7 @@
 
 .skills_photo img {
   border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .skills_text {
