@@ -1,4 +1,4 @@
-# [![Logo](./jeyefendi.png)](https://jeyefendi.com)<br>[<b>jeyefendi.com](https://jeyefendi.com)
+# [![Logo](./jeyefendi.png)](https://jeyefendi.com)<br>[jeyefendi.com](https://jeyefendi.com)
 ## S T A C K :
 **JavaScript**
 >React.js<br>
