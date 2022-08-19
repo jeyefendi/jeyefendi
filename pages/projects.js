@@ -63,7 +63,7 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_title}>
                   <h2>Anime Fan Page</h2>
                   <span>ES6</span> <span>jQuery</span> <span>Bootstrap</span> <span>SASS</span>
-                  <p>Built from template.</p>
+                  <p>Built from template as part of JS Basics Learning.</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/anime/">Live</a>
@@ -96,8 +96,8 @@ export default class SimpleSlider extends Component {
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
                 <h2>TourKey - pet-project</h2>
-                <span>HTML</span> <span>SCSS</span> <span>JS</span> <span>jQuery</span> <span>BootStrap</span>
-                <p>Made from PSD scratch with a little of creativity</p>
+                <span>HTML</span> <span>SCSS</span> <span>JS</span> <span>jQuery</span> <span>BootStrap</span><span>Figma</span>
+                <p>Made from Figma scratch with a little of creativity</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/tourkey/">Live</a>
@@ -113,8 +113,8 @@ export default class SimpleSlider extends Component {
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
                 <h2>Insurance - pet-project</h2>
-                <span>React.js</span> <span>Tailwind</span> <span>SCSS</span>
-                <p>Made from scratch with using components.</p>
+                <span>React.js</span> <span>Tailwind</span> <span>SCSS</span><span>Adobe Ps</span>
+                <p>Made from PSD scratch as part of JSX Components Basics</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/insurance/">Live</a>
