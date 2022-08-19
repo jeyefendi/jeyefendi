@@ -146,6 +146,23 @@ export default class SimpleSlider extends Component {
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
+                  <h2>WShosting - Test Task</h2>
+                  <span>HTML</span> <span>CSS</span>
+                  <p>Landing Page from Figma scratch</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/wshosting/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/wshosting">Code</a>
+                </div>   
+              </div>
+            </div>
+
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project7.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
                   <h2>jeyefendi.com v1.0</h2>
                   <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
                   <p>The initial view of this site.</p>
