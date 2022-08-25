@@ -16,7 +16,6 @@
 
 **Other**
 >RestAPI / Axios
->Wordpress<br>
 >PHP / Node.js<br>
 >Webpack<br>
 >Figma / Adobe Ps
