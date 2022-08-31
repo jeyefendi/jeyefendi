@@ -16,6 +16,6 @@
 
 **Other**
 >RestAPI / Axios<br>
->PHP / Node.js<br>
+>PHP / Wordpress<br>
 >Webpack<br>
 >🎨 Figma / Adobe Ps
