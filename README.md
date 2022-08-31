@@ -15,7 +15,7 @@
 >BEM
 
 **Other**
->RestAPI / Axios
+>RestAPI / Axios<br>
 >PHP / Node.js<br>
 >Webpack<br>
->Figma / Adobe Ps
+>🎨 Figma / Adobe Ps
