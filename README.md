@@ -1,4 +1,4 @@
-# [![Logo](./jeyefendi.png)](https://www.jeyefendi.com)<br>[www.jeyefendi.com](https://www.jeyefendi.com)
+# [![Logo](./jeyefendi.png)](https://www.jeyefendi.com)<br>[jeyefendi.com](https://www.jeyefendi.com)
 ## S T A C K :
 <b>
 🚀 React.js / Next.js / JavaScript (ES6+)<br>
