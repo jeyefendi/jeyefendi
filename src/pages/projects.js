@@ -63,7 +63,7 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_title}>
                 <h2>Anime Quote Generator</h2>
                 <span>React.js</span> <span>API</span> <span>Axios</span> <span>SCSS</span>
-                <p>Powered by React.js with using Axios and Animechan API</p>
+                <p>Powered by React.js with using Axios and Animechan API.</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://quote-anime.netlify.app/">Live</a>
@@ -80,7 +80,7 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_title}>
                 <h2>Notes macOS Clone</h2>
                 <span>TypeScript</span> <span>React.js</span> <span>mobX</span> <span>JSX</span>
-                <p>SPA with delete, edit, search functions</p>
+                <p>SPA with delete, edit, search functions.</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://iosnotes.netlify.app/">Live</a>
@@ -97,7 +97,7 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_title}>
                 <h2>Spotify Playlist</h2>
                 <span>React.js</span> <span>RestAPI</span> <span>JSX</span>
-                <p>Web App for create and edit playlists from Spotify</p>
+                <p>Web App for create and edit playlists from Spotify.</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://spotifyplaylist.netlify.app/">Live</a>
@@ -131,7 +131,7 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_title}>
                 <h2>TourKey - pet-project</h2>
                 <span>HTML</span> <span>SCSS</span> <span>JS</span> <span>jQuery</span> <span>BootStrap</span> <span>Figma</span>
-                <p>Made from Figma scratch with a little of creativity</p>
+                <p>Made from Figma scratch with a little of creativity.</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/tourkey/">Live</a>
@@ -148,7 +148,7 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_title}>
                 <h2>Insurance - pet-project</h2>
                 <span>React.js</span> <span>Tailwind</span> <span>SCSS</span> <span>Adobe Ps</span>
-                <p>Made from PSD scratch as part of JSX Components Basics</p>
+                <p>Made from PSD scratch as part of JSX Components Basics.</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/insurance/">Live</a>
