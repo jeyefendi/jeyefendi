@@ -112,6 +112,23 @@ export default class SimpleSlider extends Component {
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
+                  <h2>Childhood</h2>
+                  <span>WordPress</span> <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                  <p>Wordpress integrated layout. Creating theme.</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/jeyefendi_1.0/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/jeyefendi_1.0">Code</a>
+                </div>   
+              </div>
+            </div>
+
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project05.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
                   <h2>Anime Fan Page</h2>
                   <span>ES6</span> <span>jQuery</span> <span>Bootstrap</span> <span>SASS</span>
                   <p>Built from template as part of JS Basics Learning.</p>
@@ -125,11 +142,11 @@ export default class SimpleSlider extends Component {
             
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project05.webp" layout="fill" />
+                <Image alt="" src="/projects/project06.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
-                <h2>TourKey - pet-project</h2>
+                <h2>TourKey - Travel Web Service</h2>
                 <span>HTML</span> <span>SCSS</span> <span>JS</span> <span>jQuery</span> <span>BootStrap</span> <span>Figma</span>
                 <p>Made from Figma scratch with a little of creativity.</p>
                 </div>
@@ -142,11 +159,11 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project06.webp" layout="fill" />
+                <Image alt="" src="/projects/project07.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
-                <h2>Insurance - pet-project</h2>
+                <h2>Insurance - Corporate Website</h2>
                 <span>React.js</span> <span>Tailwind</span> <span>SCSS</span> <span>Adobe Ps</span>
                 <p>Made from PSD scratch as part of JSX Components Basics.</p>
                 </div>
@@ -159,7 +176,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project07.webp" layout="fill" />
+                <Image alt="" src="/projects/project08.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -176,7 +193,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project08.webp" layout="fill" />
+                <Image alt="" src="/projects/project09.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -193,7 +210,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project09.webp" layout="fill" />
+                <Image alt="" src="/projects/project10.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
