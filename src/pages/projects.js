@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
@@ -170,6 +169,23 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/jeyefendi_1.0/">Live</a>
                   <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/jeyefendi_1.0">Code</a>
+                </div>   
+              </div>
+            </div>
+
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project8.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
+                <h2>Spotify Playlist</h2>
+                <span>React.js</span> <span>RestAPI</span> <span>JSX</span>
+                <p>SPA with add, edit, delete playlist functions and OAuth</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://spotifyplaylist.netlify.app/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/spotify">Code</a>
                 </div>   
               </div>
             </div>
