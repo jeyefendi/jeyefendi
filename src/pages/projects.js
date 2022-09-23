@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
-import styles from "../src/styles/Projects.module.css";
+import styles from "../styles/Projects.module.css";
 
 export default class SimpleSlider extends Component {
   render() {
