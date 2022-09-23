@@ -57,7 +57,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project1.webp" layout="fill" />
+                <Image alt="" src="/projects/project01.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -74,7 +74,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project2.webp" layout="fill" />
+                <Image alt="" src="/projects/project02.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -91,7 +91,24 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project3.webp" layout="fill" />
+                <Image alt="" src="/projects/project03.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
+                <h2>Spotify Playlist</h2>
+                <span>React.js</span> <span>RestAPI</span> <span>JSX</span>
+                <p>Web App for create and edit playlists from Spotify</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://spotifyplaylist.netlify.app/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/spotify">Code</a>
+                </div>   
+              </div>
+            </div>
+
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project04.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -108,12 +125,12 @@ export default class SimpleSlider extends Component {
             
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project4.webp" layout="fill" />
+                <Image alt="" src="/projects/project05.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
                 <h2>TourKey - pet-project</h2>
-                <span>HTML</span> <span>SCSS</span> <span>JS</span> <span>jQuery</span> <span>BootStrap</span><span>Figma</span>
+                <span>HTML</span> <span>SCSS</span> <span>JS</span> <span>jQuery</span> <span>BootStrap</span> <span>Figma</span>
                 <p>Made from Figma scratch with a little of creativity</p>
                 </div>
                 <div className={styles.project_links}>
@@ -125,12 +142,12 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project5.webp" layout="fill" />
+                <Image alt="" src="/projects/project06.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
                 <h2>Insurance - pet-project</h2>
-                <span>React.js</span> <span>Tailwind</span> <span>SCSS</span><span>Adobe Ps</span>
+                <span>React.js</span> <span>Tailwind</span> <span>SCSS</span> <span>Adobe Ps</span>
                 <p>Made from PSD scratch as part of JSX Components Basics</p>
                 </div>
                 <div className={styles.project_links}>
@@ -142,7 +159,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project6.webp" layout="fill" />
+                <Image alt="" src="/projects/project07.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -159,7 +176,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project7.webp" layout="fill" />
+                <Image alt="" src="/projects/project08.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -176,17 +193,17 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project8.webp" layout="fill" />
+                <Image alt="" src="/projects/project09.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
-                <h2>Spotify Playlist</h2>
-                <span>React.js</span> <span>RestAPI</span> <span>JSX</span>
-                <p>Web App for create and edit playlists from Spotify</p>
+                <h2>DARYKANA</h2>
+                <span>Next.js</span> <span>React.js</span>
+                <p>This is my own failed startup. Open GitHub to read more.</p>
                 </div>
                 <div className={styles.project_links}>
-                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://spotifyplaylist.netlify.app/">Live</a>
-                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/spotify">Code</a>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://darykana.vercel.app/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/darykana">Code</a>
                 </div>   
               </div>
             </div>
