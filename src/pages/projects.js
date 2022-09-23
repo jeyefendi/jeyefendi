@@ -1,3 +1,4 @@
+import { Component } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
