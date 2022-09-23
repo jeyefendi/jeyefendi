@@ -181,7 +181,7 @@ export default class SimpleSlider extends Component {
                 <div className={styles.project_title}>
                 <h2>Spotify Playlist</h2>
                 <span>React.js</span> <span>RestAPI</span> <span>JSX</span>
-                <p>SPA with add, edit, delete playlist functions and OAuth</p>
+                <p>Web App for create and edit playlists from Spotify</p>
                 </div>
                 <div className={styles.project_links}>
                   <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://spotifyplaylist.netlify.app/">Live</a>
