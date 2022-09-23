@@ -5,6 +5,6 @@
 💠 Redux / TypeScript / Webpack<br>
 🧩 Wordpress / <i>php</i> / Node.js<br>
 🌐 HTML / SCSS / SASS / Module.css<br>
-🍭 Material UI / Tailwind / Bootstrap<br>
+🍭 MUI / Tailwind / Bootstrap<br>
 🎨 Figma / Adobe Ps
 </b>
