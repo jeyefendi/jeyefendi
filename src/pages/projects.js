@@ -112,13 +112,13 @@ export default class SimpleSlider extends Component {
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
-                  <h2>Childhood</h2>
-                  <span>WordPress</span> <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
-                  <p>Wordpress integrated layout. Creating theme.</p>
+                <h2>Store TS</h2>
+                <span>TypeScript</span> <span>React.js</span> <span>Tailwind</span> <span>JSX</span>
+                <p>Pet-project as part of TypeScript basics.</p>
                 </div>
                 <div className={styles.project_links}>
-                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/jeyefendi_1.0/">Live</a>
-                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/jeyefendi_1.0">Code</a>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://storets.netlify.app/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/store_ts">Code</a>
                 </div>   
               </div>
             </div>
@@ -126,6 +126,40 @@ export default class SimpleSlider extends Component {
             <div className={styles.project}>
               <div className={styles.project_preview}>
                 <Image alt="" src="/projects/project05.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
+                <h2>Crypto Dashboard</h2>
+                <span>React.js</span> <span>JSX</span> <span>styled-components</span>
+                <p>Pet-project as part of React basics.</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeycoins.netlify.app/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/crypto_dashboard">Code</a>
+                </div>   
+              </div>
+            </div>
+
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project06.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
+                  <h2>Childhood</h2>
+                  <span>WordPress</span> <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                  <p>Wordpress integrated layout. Creating theme.</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://jeyefendi.github.io/childhood">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/childhood">Code</a>
+                </div>   
+              </div>
+            </div>
+
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project07.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -142,7 +176,7 @@ export default class SimpleSlider extends Component {
             
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project06.webp" layout="fill" />
+                <Image alt="" src="/projects/project08.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -159,7 +193,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project07.webp" layout="fill" />
+                <Image alt="" src="/projects/project09.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -176,7 +210,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project08.webp" layout="fill" />
+                <Image alt="" src="/projects/project10.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -193,7 +227,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project09.webp" layout="fill" />
+                <Image alt="" src="/projects/project11.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
@@ -210,7 +244,7 @@ export default class SimpleSlider extends Component {
 
             <div className={styles.project}>
               <div className={styles.project_preview}>
-                <Image alt="" src="/projects/project10.webp" layout="fill" />
+                <Image alt="" src="/projects/project12.webp" layout="fill" />
               </div>
               <div className={styles.project_description}>
                 <div className={styles.project_title}>
