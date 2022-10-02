@@ -259,6 +259,23 @@ export default class SimpleSlider extends Component {
               </div>
             </div>
 
+            <div className={styles.project}>
+              <div className={styles.project_preview}>
+                <Image alt="" src="/projects/project13.webp" layout="fill" />
+              </div>
+              <div className={styles.project_description}>
+                <div className={styles.project_title}>
+                <h2>CALCULEASE</h2>
+                <span>TypeScript</span> <span>React.js</span> <span>Sass</span> <span>webpack</span>
+                <p>Lease Calculator SPA. Test Task for OXEM ©</p>
+                </div>
+                <div className={styles.project_links}>
+                  <a className={styles.live} target="_blank" rel="noopener noreferrer" href="https://calculease.netlify.app/">Live</a>
+                  <a className={styles.github} target="_blank" rel="noopener noreferrer" href="https://github.com/jeyefendi/calculease">Code</a>
+                </div>   
+              </div>
+            </div>
+
           </Slider>
         </div>
       </>
