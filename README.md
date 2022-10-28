@@ -1,6 +1,6 @@
-[![Logo](./jeyefendi.png)](https://www.jeyefendi.com)<br>[         **www.jeyefendi.com**](https://www.jeyefendi.com)
+# [![Logo](./jeyefendi.png)](https://www.jeyefendi.com)<br>[**www.jeyefendi.com**](https://www.jeyefendi.com)
 
-# STACK :
+## STACK :
 <b>
 💎  TypeScript |  JavaScript (ES6+) <br>
 🚀  React.js | Next.js | Apollo <br>
