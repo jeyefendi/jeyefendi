@@ -3,7 +3,7 @@
 **STACK :**<br>
 
 💎  TypeScript **|**  JavaScript (ES6+) <br>
-🚀  React.js **|** Next.js **|** Apollo <br>
+🚀  React.js **|** Next.js **|** Astro <br>
 💠  Redux **|** MobX **|** Webpack <br>
 🧩  Wordpress **|** <i>php</i> **|** node.js <br>
 🌐  HTML **|** Sass **|** SCSS **|** Module CSS <br>
