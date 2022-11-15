@@ -1,8 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
 .loader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    width: 18em;
-    height: 18em;
+    width: 10em;
+    height: 10em;
   }

@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import styles from "../styles/Projects.module.css";
 import { useQuery } from "react-query";
 import { getProjects } from "../services/api";
+import Loader from "../components/Loader/Loader";
 
 const SimpleSlider = () => {
   const settings = {
@@ -15,7 +16,7 @@ const SimpleSlider = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
       {
@@ -51,7 +52,7 @@ const SimpleSlider = () => {
   );
 
   if (isLoading || isRefetching) {
-    return <h2>Loading...</h2>;
+    return <Loader/>;
   }
 
   if (isError) {
