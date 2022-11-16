@@ -8,7 +8,7 @@ const SimpleSlider = ({children}) => {
         infinite: true,
         centerPadding: "-1em",
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: true,
