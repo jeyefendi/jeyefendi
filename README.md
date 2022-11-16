@@ -1,4 +1,4 @@
-# [![Logo](./jeyefendi.png)](https://www.jeyefendi.com)<br>[jeyefendi.com](https://www.jeyefendi.com)
+# [![Logo](./public/favicon.webp)](https://www.jeyefendi.com)<br>[jeyefendi.com](https://www.jeyefendi.com)
 
 **STACK :**<br>
 
