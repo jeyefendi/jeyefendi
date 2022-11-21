@@ -1,5 +1,4 @@
-# <p folat="left"><a href="https://www.jeyefendi.com/"><img src="./public/favicon.webp" alt="Logo"></a>Hello there! Welcome to my Gothub!</p><br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Concert+One&size=24&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=160&height=24&lines=jeyefendi.com;onClick+Logo!)](https://git.io/typing-svg)
-[![Logo](./public/favicon.webp)](https://www.jeyefendi.com)
+# [![Logo](./public/favicon.webp)](https://www.jeyefendi.com) ![Nick](https://github.com/jeyefendi/assets/blob/main/jeyefendi.png?raw=true)<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Concert+One&size=24&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=160&height=24&lines=jeyefendi.com;onClick+Logo!)](https://git.io/typing-svg)
 ## STACK:<br>
 
 💎  TypeScript **|**  JavaScript (ES6+) <br>
