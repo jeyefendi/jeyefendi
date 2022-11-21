@@ -1,4 +1,4 @@
-# [![Logo](./public/favicon.webp)](https://www.jeyefendi.com)<br>[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub!;I+am+Jeyhun+and+you+can+call+me+Jacky;Like+Chan,+yeah+😜)](https://git.io/typing-svg)
+# [![Logo](./public/favicon.webp)](https://www.jeyefendi.com)<br>[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub!;Nice+to+meet+you,+I+am+Jacky;Like+Chan,+yeah+😜)](https://git.io/typing-svg)
 
 **STACK :**<br>
 
