@@ -1,4 +1,4 @@
-<p float="left"><a href="https://www.jeyefendi.com"><img src="./public/favicon.webp" alt="Logo" height="128"></a><a href="https://www.jeyefendi.com"><img src="https://github.com/jeyefendi/assets/blob/main/jeyefendi.png" height="128" alt="Nick"></a></p>
+<p float="left"><a href="https://www.jeyefendi.com"><img src="./public/favicon.webp" alt="Logo" height="128"></a><a href="https://www.jeyefendi.com"><img src="https://raw.githubusercontent.com/jeyefendi/assets/main/space.png" alt="Logo" height="128"></a><a href="https://www.jeyefendi.com"><img src="https://github.com/jeyefendi/assets/blob/main/nick.png?raw=true" height="128" alt="Nick"></a></p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Concert+One&size=18&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=128&height=24&lines=jeyefendi.com;onClick+Logo!)](https://git.io/typing-svg)
 
