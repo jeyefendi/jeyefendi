@@ -1,6 +1,6 @@
-<p float="left"><a href="https://www.jeyefendi.com"><img width="128" src="https://raw.githubusercontent.com/jeyefendi/assets/main/space.png"></a><a href="https://www.jeyefendi.com"><img src="./public/favicon.webp" alt="Logo" height="128"></a><a href="https://www.jeyefendi.com"><img width="128" src="https://raw.githubusercontent.com/jeyefendi/assets/main/space.png"></a><a href="https://www.jeyefendi.com"><img src="https://github.com/jeyefendi/assets/blob/main/nick.png?raw=true" alt="Nick"></a></p>
+<p float="left"><a href="https://www.jeyefendi.com"><img width="100" src="https://raw.githubusercontent.com/jeyefendi/assets/main/space.png"></a><a href="https://www.jeyefendi.com"><img src="./public/favicon.webp" alt="Logo" height="128"></a><a href="https://www.jeyefendi.com"><img width="100" src="https://raw.githubusercontent.com/jeyefendi/assets/main/space.png"></a><a href="https://www.jeyefendi.com"><img src="https://github.com/jeyefendi/assets/blob/main/nick.png?raw=true" alt="Nick"></a></p>
 
-<a href="https://www.jeyefendi.com"><img width="128" height="1" src="https://raw.githubusercontent.com/jeyefendi/assets/main/space.png"></a>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Concert+One&size=18&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=128&height=24&lines=jeyefendi.com;onClick+Logo!)](https://git.io/typing-svg)
+<a href="https://www.jeyefendi.com"><img width="100" height="1" src="https://raw.githubusercontent.com/jeyefendi/assets/main/space.png"></a>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Concert+One&size=18&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=128&height=24&lines=jeyefendi.com;onClick+Logo!)](https://git.io/typing-svg)
 
 ---
 
